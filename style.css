@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+
+body {
+    padding-top: 12px;
+    font-family: 'Space Grotesk',  sans-serif;
+}
+
+
+a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.nav-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.firstlinks {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 132.03%;
+    color: #222222;
+}
+
+
+h1 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 132.03%;
+    color: #4D4D4D;
+}
+
+/* first span sytles */
+span {
+    display: block;
+}
+
+#red-ghost {
+    display: inline;
+    color: #BD2423;
+}
+
+.talk-to-us-parentbox {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.talk-to-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 256px;
+    height: 80px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 132.03%;
+    background: #222222;
+    color: #fff;
+}
+
+#how-it-workslink {
+    width: 179px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 132.03%;
+    color: #222222;
+    border: 1px solid #E2E2E2;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 25px;
+}
