@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,32 +8,68 @@
     <title>Ghost Switch</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <nav>
             <a href="#"><img src="img/Group 47.png" alt="Ghostswitch icons" width="168" height="55"></a>
             <div class="nav-icons">
                 <a href="#" class="firstlinks">Home</a>
-                <a href="#" class="firstlinks">Products</a>
-                <a href="#" class="firstlinks">Services</a>
-                <a href="#" class="firstlinks">Company</a>
-                <a href="#" class="firstlinks">Contact</a>
+                <div style="position: relative;" class="products">
+                    <a href="#" class="firstlinks">Products</a>
+                    <div id="product-dropdown">
+                        <!-- this div should be position absolute because it is a dropdown for Products -->
+                        <a href="#">Ghost_S</a>
+                        <a href="#">Ghost Air</a>
+                        <a href="#">Ghost Safe Lock <img src="img/Group 244.png" alt="coming soon icon" width="56"
+                                height="12" id="comining-soon">
+                        </a>
+                    </div>
+                </div>
+                <div><a href="#" class="firstlinks">Services</a></div>
+                <div><a href="#" class="firstlinks">Company</a></div>
+                <div><a href="#" class="firstlinks">Contact</a></div>
             </div>
         </nav>
     </header>
     <main>
-        <div> <!-- this div should be displayed flex -->
+        <div class="first-main-box"> <!-- this div should be displayed flex -->
             <div>
-                <h1>Upgrade  to 
-                   <span>Smart Living</span>
-                   <span>with <span id="red-ghost">Ghost Switch</span></span></h1>
-                    <div class="talk-to-us-parentbox"> <!-- this should be displayed flex -->
-                   <a href="#"><div class="talk-to-us">Talk to us <img src="img/phone-svgrepo-com 1.png" alt="phone"></div></a>
-                   <a href="#" id="how-it-workslink">How it works <img src="img/video-circle-svgrepo-com 1.png" alt="video circle" width="21" height="21"></a>
+                <h1>Upgrade to
+                    <span>Smart Living</span>
+                    <span>with <span id="red-ghost">Ghost Switch</span></span>
+                </h1>
+                <div class="talk-to-us-parentbox"> <!-- this should be displayed flex -->
+                    <a href="#">
+                        <div class="talk-to-us">Talk to us <img src="img/phone-svgrepo-com 1.png" alt="phone" width="23"
+                                height="23"></div>
+                    </a>
+                    <a href="#" id="how-it-workslink">How it works <img src="img/video-circle-svgrepo-com 1.png" alt="video circle" width="21" height="21" id="video_circle"></a>
                 </div>
             </div>
-            <div></div>
+            <div>
+                <img src="img/Group 76.png" alt="phone design" width="610" height="649">
+            </div>
+        </div>
+        <h2 style="text-align: center; margin: 80px 0px 60px 0px;">Why Ghost Switch <span>Upgrade?</span></h2>
+        <div class="second-main-box"> <!-- this div will have a background image of the yellow board and will be displayed flex-->
+            <div id="home-connection-image"><img src="img/Mask group (10).png" alt="home connection illustration" width="762" height="507"></div>
+            <div id="reason-box">
+                <div class="reasons"><img src="img/Group 49.png" alt="piggybank icon" width="85" height="81">
+                    <p>Affordable luxury</p>
+                </div>
+                <div class="reasons"><img src="img/Group 51.png" alt="bulb icon" width="85" height="81">
+                    <p>Save Electricity by 50%</p>
+                </div>
+                <div class="reasons"><img src="img/Group 53.png" alt="remote icon" width="85" height="81">
+                    <p>Manage your property Remotely</p>
+                </div>
+                <div class="reasons"><img src="img/Group 55.png" alt="shield icon" width="85" height="81">
+                    <p>Protect what you care about</p>
+                </div>
+            </div>
         </div>
     </main>
 </body>
+
 </html>

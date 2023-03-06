@@ -19,12 +19,13 @@ a {
 }
 
 nav {
+    height: 98px;
     display: flex;
     justify-content: space-between ;
     align-items: center;
-    width: 90%;
-    margin: auto;
-    border: 1px solid black;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow: 0px 4px 4px rgba(217, 217, 217, 0.24);
 }
 
 .nav-icons {
@@ -40,10 +41,70 @@ nav {
     font-size: 18px;
     line-height: 132.03%;
     color: #222222;
+    padding-bottom: 18px;
+}
+
+.firstlinks:hover {
+    color: #BD000D;
+}
+
+/* this is the css for the product dropdown on hover */
+#product-dropdown {
+    display: none;
+}
+
+#product-dropdown {
+    position: absolute;
+    width: 204px;
+    height: 129px;
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 132.03%;
+    box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    margin-top: 18px;
+    padding: 18px;
+}
+
+#comining-soon {
+    position: relative;
+    top: 2px;
+    margin-left: 5px;
+}
+
+#product-dropdown a {
+    display: block;
+    color: #222222;
+}
+
+#product-dropdown a:hover {
+    color: #BD000D;
+}
+
+#product-dropdown a:nth-child(2), a:last-child {
+    margin-top: 20px;
+}
+
+.products:hover #product-dropdown {
+    display: block;
 }
 
 
-h1 {
+.first-main-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 110px;
+}
+
+.first-main-box div h1 {
+    position: relative;
+    bottom: 35px;
     font-weight: 500;
     font-size: 50px;
     line-height: 132.03%;
@@ -63,7 +124,6 @@ span {
 .talk-to-us-parentbox {
     display: flex;
     align-items: center;
-    border: 1px solid black;
 }
 
 .talk-to-us {
@@ -91,4 +151,49 @@ span {
     text-align: center;
     padding-top: 10px;
     margin-left: 25px;
+}
+
+#video_circle {
+    position: relative;
+    top: 5px;
+}
+
+.second-main-box {
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    position: relative;
+    left: 20%;
+    width: 80%;
+    height: 673px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 132.03%;
+    background-image: linear-gradient(180deg, rgba(252, 246, 189, 0.48) 0%, #FDF49D 77.6%);
+}
+
+#home-connection-image {
+    position: relative;
+    right: 22%;
+}
+
+#reason-box {
+    display: flex;
+    flex-direction: column  ;
+    height: 520px;
+    justify-content: space-between;
+    position: relative;
+    right: 15%;
+    border: 1px solid black;
+}
+
+.reasons {
+    display: flex;
+    align-items: center;
+}
+
+.reasons p {
+    margin-left: 30px;
 }
