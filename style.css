@@ -221,6 +221,8 @@ span {
         height: auto;
     }
  
+
+
     .nav-icons { 
         display: none;
     }
@@ -233,8 +235,18 @@ span {
         width: 100%;
         height: auto;
         flex-direction: column;
+        margin-top: 36px;
 
     }
+
+    .inner-main{
+        width: 338px;
+        padding-left: 23px;
+        margin-bottom: 40px;
+    }
+
+
+
 
     .first-main-box div h1 {
         font-size: 30px;
@@ -259,27 +271,76 @@ span {
         height: 275px;
     }
 
+
+    .why-ghost {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 132.03%;
+    }
+
+
     .second-main-box {
         flex-direction: column;
-        align-items: center;
-        position: relative;
-        width: 100%;
-        height: auto;
+        height: 436px;
         font-family: 'Poppins', sans-serif;
         font-style: normal;
-        font-weight: 400;
+        position: relative;
+        left: 0px;
+        width: 100%;
+        font-weight: 700;
         font-size: 14px;
         line-height: 132.03%;
         background-image: linear-gradient(180deg, rgba(252, 246, 189, 0.48) 0%, #FDF49D 77.6%);
+        margin-top: 176px;
         margin-bottom: 60px;
+    }
+
+    #home-connection-image {
+        position: relative;
+        right: 0px;
+        text-align: center;
     }
 
     #home-connection {
         width: 90%;
         height: auto;
-        margin: auto;
+        position: relative;
+        bottom: 112px;
+    }
+    
+    #reason-box {
+        display: flex;
+        flex-direction: column ;
+        height: 292px;
+        text-align: center;
+        justify-content: space-between;
+        position: relative;
+        bottom: 88px;
+        margin-left: 84px;
+        
+    }
+    
+    .reasons {
+        display: flex;
+        align-items: center;
+    }
+    
+    .mid {
+        margin-bottom: 17px;
     }
 
+
+
+
+
+    .reason-image {
+        width: 54px;
+        height: 54px;
+    }
+
+    .reasons p {
+        margin-left: 20px;
+    }
 
 }
 
