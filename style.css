@@ -196,6 +196,16 @@ span {
     right: 37%;
 }
 
+#home-connection {
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 5px;
+}
+
+
+
+
 #reason-box {
     display: flex;
     flex-direction: column ;
@@ -304,6 +314,161 @@ span {
 }
 
 
+#ourproducts-section {
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 132.03%;
+    margin-bottom: 38px;
+}
+
+
+.ourproduct-firtsbox {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    width: 95%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.ourproduct-firstboxinner1 {
+    width: 28%;
+    height: auto;
+}
+
+.ourproduct-firstboxinner1 p {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 152.53%;
+    color: #222222;
+    margin-bottom: 54px;
+
+}
+
+.ourproduct-firstboxinner1 a {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 152.53%;
+    color: #222222; 
+    padding: 25px 61px;
+    background-color: #F5F5F5;
+}
+
+
+
+
+.ourproduct-firstboxinner2 {
+    width: 69.54%;
+    height: auto;
+    text-align: center;
+    background-color: #BD000D;
+    padding-bottom: 72px;
+
+}
+
+#ghostpicture {
+    display: none;
+}
+
+.ourproduct-firstboxinner2 h2 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 132.03%;
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.ourproduct-firstboxinner2 p {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 132.03%;
+    color: #fff;
+    margin-bottom: 100px;
+}
+
+
+
+.ourproduct-firstboxinner2 a {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 152.53%;
+    color: #222222; 
+    padding: 25px 61px;
+    background-color: #fff;
+}
+
+
+.ourproduct-secondbox {
+    display: flex;
+    justify-content: right;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    width: 95%;
+    margin: auto;
+    height: 701px;
+    padding: 30px 90px;
+    background-image: url(img/Mask\ group\ \(15\).png);
+    margin-bottom: 300px;
+}
+
+
+
+
+
+
+.switch-airbox {
+    display: flex;
+    position: relative;
+    right:  20px;
+}
+
+
+#littleghost2 {
+    display: none;
+}
+
+.ourproduct-secondbox h2 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 132.03%;
+    color: #4D4D4D;
+    margin-bottom: 12px;
+
+}
+
+.ourproduct-secondbox p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 152.53%;
+    color: #4D4D4D;
+    margin-bottom: 60px;
+
+}
+
+.ourproduct-secondbox a {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 152.53%;
+    color: #222222;
+    padding: 25px 61px;;
+    background-color: #fff;
+}
+
+
+#smatlock {
+    display: none;
+}
+
+
+
+
+
+
+
 
 
 
@@ -323,7 +488,7 @@ span {
 
 /* this is the media quary for mobile devices */ 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1252px) {
 
     #main-icon {
         width: 108px;
@@ -525,6 +690,134 @@ span {
     width: 8.5px;
     height: 6.98px;
 }
+
+#ourproducts-section {
+    font-size: 20px;
+}
+
+
+.ourproduct-firtsbox {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    width: 85%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.ourproduct-firstboxinner1 {
+    display: none;
+}
+
+.ourproduct-firstboxinner2 {
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+
+.ourproduct-firstboxinner2 h2 {
+    font-size: 16px;
+    margin-top: 28px;
+    margin-bottom: 14px;
+
+}
+
+.ourproduct-firstboxinner2 p {
+    font-size: 12px;
+    margin-bottom: 32px;
+}
+
+
+
+.ourproduct-firstboxinner2 a {
+    font-size: 10px;
+    padding: 16px 23px;
+ 
+}
+
+
+#ghostpicture1 {
+    display: none;
+}
+
+#ghostpicture {
+    display: block;
+    position: relative;
+    left: 36%;
+}
+
+.switch-airbox {
+    display: flex;
+    position: relative;
+    right:  2px;
+}
+
+
+.ourproduct-secondbox {
+    display: flex;
+    justify-content: right;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    width: 85%;
+    margin: auto;
+    height: auto;
+    padding: 30px 0px;
+    background-image: url(img/Mask\ group\ \(16\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+}
+
+.ourproduct-secondbox h2 {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 132.03%;
+    color: #4D4D4D;
+    margin-bottom: 0px;
+
+}
+
+.ourproduct-secondbox p {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 152.53%;
+    color: #4D4D4D;
+    margin-bottom: 60px;
+
+}
+
+.ourproduct-secondbox a {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 152.53%;
+    color: #222222;
+    padding: 10px 14px;;
+    background-color: #fff;
+}
+
+
+#little-ghost {
+    display: none;
+}
+
+
+#littleghost2 {
+    display: block;
+    position: relative;
+    right: 0px;
+    top: 0px;
+}
+
+
+#smatlock {
+    display: block;
+    width: 85%;
+    height: auto;
+    margin: auto;
+}
+
 
 
 
