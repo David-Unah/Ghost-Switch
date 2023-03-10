@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
     }
 
 
@@ -151,6 +152,7 @@ span {
     line-height: 132.03%;
     background: #222222;
     color: #fff;
+    box-shadow: 0px 13px 4px #BFBFBF;
 }
 
 #how-it-workslink {
@@ -177,7 +179,7 @@ span {
     justify-content: space-evenly;
     align-items: center;
     position: relative;
-    left: 20%;
+    margin-left: 20%;
     width: 80%;
     height: 673px;
     font-family: 'Poppins', sans-serif;
@@ -186,12 +188,12 @@ span {
     font-size: 18px;
     line-height: 132.03%;
     background-image: linear-gradient(180deg, rgba(252, 246, 189, 0.48) 0%, #FDF49D 77.6%);
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 
 #home-connection-image {
     position: relative;
-    right: 19%;
+    right: 37%;
 }
 
 #reason-box {
@@ -199,7 +201,7 @@ span {
     flex-direction: column ;
     height: 520px;
     justify-content: space-between;
-    position: relative;
+    position: absolute;
     right: 11%;
 }
 
@@ -209,8 +211,115 @@ span {
 }
 
 .reasons p {
-    margin-left: 30px;
+    margin-left: 22px;
 }
+
+
+#ourservices {
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 132.03%;
+    margin-bottom: 40px;
+}
+
+/* this is the css for the third main box */
+
+.third-main-box-one {
+    width: 70.63%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    margin-bottom: 5%;
+}
+
+.tiles {
+    box-shadow: 0px 0px 0px #EDEDED;
+    transition: box-shadow 0.5s;
+}
+
+.tiles:hover {
+    box-shadow: 0px 13px 3px #EDEDED;
+}
+
+
+.tile-images {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.ourservics-minibox {
+    padding: 20px;
+    background-color: rgba(245, 245, 245, 0.31);
+}
+
+.third-main-box-one h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 132.03%;
+    color: #222222;
+    margin-bottom: 7px;
+
+}
+
+.third-main-box-one p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 132.03%;
+    color: #989898;
+
+}
+
+.third-main-box-one p:first-child, .third-main-box-one p:nth-child(2) {
+    margin-right: 12px;
+}
+
+.third-main-box-one a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 132.03%;
+    color:#4D4D4D;
+}
+
+.third-main-box-one a:hover {
+    color: #BD000D;
+
+}
+
+.third-main-box-one a:hover .red-right-arrow {
+    display: inline-block;
+}
+
+.third-main-box-one a:hover .black-right-arrow {
+    display: none;
+}
+
+
+.red-right-arrow {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* this is the media quary for mobile devices */ 
 
@@ -235,7 +344,7 @@ span {
         width: 100%;
         height: auto;
         flex-direction: column;
-        margin-top: 36px;
+        margin-top: 86px;
 
     }
 
@@ -245,6 +354,18 @@ span {
         margin-bottom: 40px;
     }
 
+    #phone {
+        width: 14.38px;
+        height: 14.38px;
+        margin-left: 9px;
+    }
+
+    #video_circle {
+        width: 11.67px;
+        height: 11.67px;
+        position: relative;
+        top: 3px;
+    }
 
 
 
@@ -263,7 +384,7 @@ span {
         width: 122px;
         height: 34px;
         font-size: 10px;
-        padding-top: 0px;
+        padding-top: 8px;
     }
 
     #phone-design {
@@ -280,18 +401,16 @@ span {
 
 
     .second-main-box {
+        display: flex;
         flex-direction: column;
-        height: 436px;
-        font-family: 'Poppins', sans-serif;
-        font-style: normal;
         position: relative;
-        left: 0px;
         width: 100%;
+        margin: 0;
+        max-height: 436px;
         font-weight: 700;
         font-size: 14px;
         line-height: 132.03%;
-        background-image: linear-gradient(180deg, rgba(252, 246, 189, 0.48) 0%, #FDF49D 77.6%);
-        margin-top: 176px;
+        margin-top: 149px;
         margin-bottom: 60px;
     }
 
@@ -299,6 +418,7 @@ span {
         position: relative;
         right: 0px;
         text-align: center;
+        bottom: -27px;
     }
 
     #home-connection {
@@ -315,7 +435,7 @@ span {
         text-align: center;
         justify-content: space-between;
         position: relative;
-        bottom: 88px;
+        bottom: 67px;
         margin-left: 84px;
         
     }
@@ -341,6 +461,73 @@ span {
     .reasons p {
         margin-left: 20px;
     }
+
+
+    #ourservices {
+        font-size: 20px;
+    }
+
+/* this is for the third box */
+
+.third-main-box-one {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    margin-bottom: 5%;
+}
+
+
+.tiles {
+    width: 100%;
+    box-shadow: 0px 0px 0px #EDEDED;
+    transition: box-shadow 0.5s;
+    margin-bottom: 33px;
+}
+
+.ourservics-minibox {
+    padding: 20px;
+    background-color: rgba(245, 245, 245, 0.31);
+}
+
+.third-main-box-one h3{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 132.03%;
+    color: #222222;
+    margin-bottom: 7px;
+
+}
+
+.third-main-box-one p {
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 132.03%;
+    color: #989898;
+
+}
+
+.third-main-box-one p:first-child, .third-main-box-one p:nth-child(2) {
+    margin-right: 12px;
+}
+
+.third-main-box-one a {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 132.03%;
+    color:#4D4D4D;
+}
+
+.red-right-arrow, .black-right-arrow {
+    width: 8.5px;
+    height: 6.98px;
+}
+
+
+
 
 }
 
