@@ -26,6 +26,10 @@ nav {
     align-items: center;
     padding-left: 5%;
     padding-right: 5%;
+    position: sticky;
+    top: 0;
+    background-color: #FFFFFF;
+    z-index: 1;
     box-shadow: 0px 4px 4px rgba(217, 217, 217, 0.24);
 }
 
@@ -554,13 +558,15 @@ span {
 
 .faqboxes {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     width: 60%;
     margin: auto;
     padding-top: 50px;
     padding-bottom: 50px;
+    padding-left: 100px;
     background-color: #F0F0F0;
     border: 1px solid black;
+    margin-bottom: 30px;
 
 }
 
@@ -592,12 +598,118 @@ span {
 }
 
 .questionbox p {
+    display: none;
     font-weight: 400;
     font-size: 16px;
     line-height: 170.53%;
     color: #4D4D4D;
 }
 
+
+.are-you-ready {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    margin-top: 250px;
+    margin-bottom: 200px;
+}
+
+.are-you-ready h2 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 132.03%;
+}
+
+.are-you-ready a {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 132.03%;
+    padding: 20px 70px;
+    color: #FFFFFF;
+    background-color: #BD000D;
+    margin-bottom: 18px;
+}
+
+
+.are-you-ready span {
+    display: inline;
+}
+
+
+/* this is the css design for the  footer */
+
+footer {
+    padding-top: 9%;
+    background-color: #323232;
+    padding-bottom: 5%;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    color: #FFFFFF;
+}
+
+.footer-box h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 169.53%;
+    color: #BD000D;
+    margin-bottom: 20px;
+}
+
+
+.footerservice-box a span {
+    margin-bottom: 20px;
+}
+
+.footer-box a {
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 169.53%;
+    margin-bottom: 15px;
+}
+
+.footer-box p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 169.53%;
+    margin-bottom: 15px;
+}
+
+
+.products-services {
+    display: flex;
+    justify-content: space-between;
+    width: 21%;
+}
+
+.footerproduct-box a {
+    display: block;
+}
+
+.call-us {
+    margin-top: 40px;
+}
+
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+}
+
+
+.footericons {
+    margin-left: 30px;
+}
 
 
 
@@ -972,14 +1084,30 @@ span {
 
 .faqboxes {
     display: flex;
-    justify-content: center;
+   /*  justify-content: center; */
     width: 85%;
     margin: auto;
-    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 31px;
     background-color: #F0F0F0;
-    border: none
+    border: none;
+    margin-bottom: 30px
 
 }
+
+/* .faqboxes {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    background-color: #F0F0F0;
+    border: 1px solid black;
+    margin-bottom: 30px;
+
+} */
 
 .pluscircle {
     width: 20px;
@@ -1010,10 +1138,129 @@ span {
 }
 
 
+.questionbox p span {
+    display: inline;
+}
+
+.are-you-ready {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 85%;
+    margin-top: 46px;
+    margin-bottom: 36px
+}
+
+.are-you-ready h2 {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.are-you-ready a {
+    font-size: 18px;
+    padding: 20px 41px;
+    margin-bottom: 18px;
+}
 
 
+.are-you-ready span {
+    display: block;
+}
+
+#upgrade { 
+    display: inline;
+    color: #000;
+}
+
+/* this is the footer for the mobile view */
+
+footer {
+    padding-top: 9%;
+    background-color: #323232;
+    padding-bottom: 5%;
+}
+
+.footer-box {
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    color: #FFFFFF;
+}
+
+.footmainimage {
+    width: 150px;
+    height: 51px;
+    margin-left: 33px;
+}
 
 
+.footer-box h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+
+.footerservice-box a span {
+    margin-bottom: 20px;
+}
+
+.footer-box a {
+    font-size: 12px;
+}
+
+.footer-box p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 169.53%;
+    margin-bottom: 15px;
+}
+
+
+.products-services {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.footerproduct-box a {
+    display: block;
+}
+
+.address-contact {
+    display: flex;
+    justify-content: space-around;
+    width: 73%;
+    margin: auto;
+    margin-bottom: 14px;
+}
+
+
+.call-us {
+    margin-top: 0px;
+}
+
+
+.footer-logo {
+    display: flex;
+    justify-content: start;
+    padding-left: 30px;
+}
+
+
+.footericons {
+    margin-left: 30px;
+}
+
+.footiconimage {
+    width: 25.13px; 
+    height: 25.13px;
+}
 
 
 
