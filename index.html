@@ -10,7 +10,39 @@
 </head>
 
 <body>
+    <div class="overlay">
+        <div style="text-align: right;">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="img/cross.png" alt="cross"></a>
+        </div>
+        <div class="overlay-content">
+            <a href="#">Home</a>
 
+
+
+
+
+            <div class="dropdown"> <!-- this is the dropdown box -->
+                <button id="dropbtn">Products &nbsp;<img src="img/left-arrow-backup-2-svgrepo-com 1.png" alt="dropdown arrow" class="dropdown-arrow" id="drop-arrow"></button>
+                <div id="myDropdown" class="inneroverlay">
+                    <a href="#" class="inner-content">Ghost_S</a>
+                    <a href="#" class="inner-content">Ghost Air</a>
+                    <a href="#" class="inner-content">Ghost Safe Lock <img src="img/Group 244 (1).png"
+                            alt="coming soon icon"></a>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            </a>
+            <a href="#">Services</a>
+            <a href="#">Company</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
     <nav>
         <a href="#"><img src="img/Group 47.png" alt="Ghostswitch icons" width="168" height="55" id="main-icon"></a>
         <div class="nav-icons">
@@ -28,13 +60,13 @@
             </div>
             <div><a href="#ourservices" class="firstlinks">Services</a></div>
             <div><a href="#" class="firstlinks">Company</a></div>
-            <div><a href="#" class="firstlinks">Contact</a></div>
+            <div><a href="#call-us" class="firstlinks">Contact</a></div>
         </div>
         <div id="small-screen-firstlink">
             <!-- this is the first icon links that appears when it is view on smaller screen -->
-            <a href="#" id="whatsapplogo"><img src="img/whatsapp-whats-app-svgrepo-com 1.png" alt="whatsapp icon"
+            <a href="#call-us" id="whatsapplogo"><img src="img/whatsapp-whats-app-svgrepo-com 1.png" alt="whatsapp icon"
                     width="20" height="20"></a>
-            <a href="#" id="callogo"><img src="img/phone-svgrepo-com (1) 1.png" alt="phone icon" width="20"
+            <a href="#call-us" id="callogo"><img src="img/phone-svgrepo-com (1) 1.png" alt="phone icon" width="20"
                     height="20"></a>
             <a href="#"><img src="img/menu-svgrepo-com (2) 1.png" alt="menubox icon" width="30" height="30"></a>
         </div>
@@ -306,7 +338,7 @@
                     </p>
                 </div>
                 <div>
-                    <h3 class="call-us">Call Us</h3>
+                    <h3 id="call-us">Call Us</h3>
                     <p>+234 4567 859</p>
                 </div>
             </div>
@@ -324,7 +356,7 @@
             </div>
         </div>
     </footer>
-
+    <script src="js/main.js"></script> 
 </body>
 
 </html>
