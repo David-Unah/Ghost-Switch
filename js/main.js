@@ -17,3 +17,16 @@ document.documentElement.addEventListener("click", function () {
     toggleDropdown();
   }
 });
+
+
+
+
+// this is for the open and closing nav
+
+function openNav() {
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("myOverlay").style.display = "none";
+}
