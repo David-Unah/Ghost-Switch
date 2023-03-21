@@ -132,7 +132,7 @@ nav {
 }
 
 .firstlinks:hover {
-    color: #BD000D;
+    color: #FABB05;
 }
 
 /* this is the css for the product dropdown on hover */
@@ -156,7 +156,7 @@ nav {
     padding: 18px;
 }
 
-#comining-soon {
+.comining-soon {
     position: relative;
     top: 2px;
     margin-left: 5px;
@@ -168,7 +168,7 @@ nav {
 }
 
 #product-dropdown a:hover {
-    color: #BD000D;
+    color: #F5CE2E;
 }
 
 #product-dropdown a:nth-child(2), a:last-child {
@@ -216,9 +216,9 @@ span {
     display: block;
 }
 
-#red-ghost {
+#yellow-ghost {
     display: inline;
-    color: #BD2423;
+    color: #FFCE31;
 }
 
 .talk-to-us-parentbox {
@@ -263,41 +263,33 @@ span {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    position: relative;
-    margin-left: 20%;
-    width: 80%;
+    width: 100%;
     height: 673px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 132.03%;
-    background-image: linear-gradient(180deg, rgba(252, 246, 189, 0.48) 0%, #FDF49D 77.6%);
     margin-bottom: 80px;
 }
 
-#home-connection-image {
-    position: relative;
-    right: 37%;
-}
 
-#home-connection {
+#family-image {
     width: 100%;
     height: auto;
-    position: relative;
-    bottom: 5px;
+    /* position: relative;
+    bottom: 5px; */
 }
-
-
 
 
 #reason-box {
     display: flex;
     flex-direction: column ;
-    height: 520px;
+    height: 450px;
     justify-content: space-between;
-    position: absolute;
-    right: 11%;
+    /* position: relative;
+    bottom: 20px;
+    right: 20px; */
 }
 
 .reasons {
@@ -381,11 +373,11 @@ span {
 }
 
 .third-main-box-one a:hover {
-    color: #BD000D;
+    color: #F5CE2E;
 
 }
 
-.third-main-box-one a:hover .red-right-arrow {
+.third-main-box-one a:hover .yellow-right-arrow {
     display: inline-block;
 }
 
@@ -394,7 +386,7 @@ span {
 }
 
 
-.red-right-arrow {
+.yellow-right-arrow {
     display: none;
 }
 
@@ -748,6 +740,10 @@ span {
     line-height: 132.03%;
 }
 
+#upgrade {
+    color: #000;
+}
+
 .are-you-ready a {
     font-weight: 600;
     font-size: 30px;
@@ -785,7 +781,7 @@ footer {
     font-weight: 600;
     font-size: 18px;
     line-height: 169.53%;
-    color: #BD000D;
+    color: #F5CE2E;
     margin-bottom: 20px;
 }
 
@@ -869,7 +865,8 @@ footer {
         display: none;
         width: 100%;
         height: 100%;
-        background-image: linear-gradient(to bottom, #BB000D, #1E1E1E);
+        background-color: #F5CE2E;
+        color: #FFFFFF;
         z-index: 2;
         position: fixed;
         padding: 0px 20px;
@@ -893,7 +890,7 @@ footer {
     nav {
         height: 51px;
         align-items: self-start;
-        padding-top: 1%;
+        padding-top: 2%;
         z-index: 1;
     }
 
@@ -963,6 +960,7 @@ footer {
         font-weight: 600;
         font-size: 20px;
         line-height: 132.03%;
+        margin: 45px 0px 24px 0px;
     }
 
 
@@ -972,12 +970,12 @@ footer {
         position: relative;
         width: 100%;
         margin: 0;
-        max-height: 436px;
+        max-height: 659px;
         font-weight: 700;
         font-size: 14px;
         line-height: 132.03%;
-        margin-top: 149px;
-        margin-bottom: 60px;
+        margin-top: 125px;
+        margin-bottom: 73px;
     }
 
     #home-connection-image {
@@ -987,22 +985,19 @@ footer {
         bottom: -27px;
     }
 
-    #home-connection {
-        width: 90%;
-        height: auto;
-        position: relative;
-        bottom: 112px;
+    #family-image {
+        width: 85%;
+        min-height: 314px;
+        margin-bottom: 61px;
     }
     
     #reason-box {
         display: flex;
         flex-direction: column ;
         height: 292px;
-        text-align: center;
+        text-align: left;
         justify-content: space-between;
-        position: relative;
-        bottom: 67px;
-        margin-left: 84px;
+        margin-bottom: 125px;
         
     }
     
@@ -1012,7 +1007,7 @@ footer {
     }
     
     .mid {
-        margin-bottom: 17px;
+        margin-bottom: 28px;
     }
 
 
@@ -1241,10 +1236,10 @@ footer {
     margin: auto;
     padding-top: 21px;
     padding-bottom: 4px;
-    padding-left: 12px;
+    padding-left: 5px;
     background-color: #F0F0F0;
     border: none;
-    margin-bottom: 19px
+    margin-bottom: 19px;
 
 }
 
