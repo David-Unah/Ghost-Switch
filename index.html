@@ -10,19 +10,20 @@
 </head>
 
 <body>
-    <div id="myOverlay"   class="overlay">
+    <div id="myOverlay" class="overlay">
         <div style="text-align: right;">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="img/cross.png" alt="cross"></a>
         </div>
         <div class="overlay-content">
-            <a href="#">Home</a>
+            <a href="#main-icon">Home</a>
 
 
 
 
 
             <div class="dropdown"> <!-- this is the dropdown box -->
-                <button id="dropbtn">Products &nbsp;<img src="img/left-arrow-backup-2-svgrepo-com 1.png" alt="dropdown arrow" class="dropdown-arrow" id="drop-arrow"></button>
+                <button id="dropbtn">Products &nbsp;<img src="img/left-arrow-backup-2-svgrepo-com 1.png"
+                        alt="dropdown arrow" class="dropdown-arrow" id="drop-arrow"></button>
                 <div id="myDropdown" class="inneroverlay">
                     <a href="#" class="inner-content">Ghost_S</a>
                     <a href="#" class="inner-content">Ghost Air</a>
@@ -38,9 +39,9 @@
 
 
             </a>
-            <a href="#">Services</a>
+            <a href="#ourservices">Services</a>
             <a href="#">Company</a>
-            <a href="#">Contact</a>
+            <a href="#call-us">Contact</a>
         </div>
     </div>
     <nav>
@@ -68,7 +69,8 @@
                     width="20" height="20"></a>
             <a href="#call-us" id="callogo"><img src="img/phone-svgrepo-com (1) 1.png" alt="phone icon" width="20"
                     height="20"></a>
-            <button onclick="openNav()"><img src="img/menu-svgrepo-com (2) 1.png" alt="menubox icon" width="30" height="30"></button>
+            <button onclick="openNav()"><img src="img/menu-svgrepo-com (2) 1 (1).png" alt="menubox icon" width="30"
+                    height="30"></button>
         </div>
     </nav>
 
@@ -251,60 +253,116 @@
             </div>
         </div>
         <h2 class="faq">FAQ</h2>
-        <div class="faqboxes"><img src="img/plus-circle-svgrepo-com.png" alt="plus circle" class="pluscircle">
-            <img src="img/minus-circle-svgrepo-com.png" alt="minus circle" class="pluscircle minuscircle">
+
+
+
+       <!-- this is first faq box -->
+
+        <div class="faqboxes">
+            <img src="img/plus-circle-svgrepo-com.png" alt="plus circle" class="pluscircle plus" id="plusimage">
+            <img src="img/minus-circle-svgrepo-com (2).png" alt="minus circle" class="minuscircle minus" id="minuscircle">
             <div class="questionbox">
-                <h3 class="questions">Can Ghost Switch be Hacked?</h3>
-                <P>Ghost is decentralized. Since it doesn't need the internet to function,
-                    <span>its security is 10x more than the competition</span>
-                </P>
+                <button id="question" class="questions quest">Can Ghost Switch be Hacked?</button>
+                <div id="answer" class="answers ans">
+                    <P>Ghost is decentralized. Since it doesn't need 
+                       <span> the internet to function, its security is 10x more </span>
+                       <span> than the competition </span>
+                    </P>
+                </div>
             </div>
         </div>
-        <div class="faqboxes"><img src="img/plus-circle-svgrepo-com.png" alt="plus circle" class="pluscircle">
-            <img src="img/minus-circle-svgrepo-com.png" alt="minus circle" class="pluscircle minuscircle">
-            <div class="questionbox">
-                <h3 class="questions">How many rooms can ghost control?</h3>
-                <P>Ghost is decentralized. Since it doesn't need the internet to function,
-                    <span>its security is 10x more than the competition</span>
-                </P>
+
+            <!-- this is the second faq box -->
+
+            <div class="faqboxes">
+                <img src="img/plus-circle-svgrepo-com.png" alt="plus circle" class="pluscircle plus" id="plusimage">
+                <img src="img/minus-circle-svgrepo-com (2).png" alt="minus circle" class="minuscircle minus" id="minuscircle">
+                <div class="questionbox">
+                    <button id="question" class="questions quest">How many rooms can Ghost Switch Control?</button>
+                    <div id="answer" class="answers ans">
+                        <P>Ghost is decentralized. Since it doesn't need 
+                            <span> the internet to function, its security is 10x more </span>
+                            <span> than the competition </span>
+                         </P>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="faqboxes"><img src="img/plus-circle-svgrepo-com.png" alt="plus circle" class="pluscircle">
-            <img src="img/minus-circle-svgrepo-com.png" alt="minus circle" class="pluscircle minuscircle">
-            <div class="questionbox">
-                <h3 class="questions">Do I have to convert my whole house to a smart-home?</h3>
-                <P>Ghost is decentralized. Since it doesn't need the internet to function,
-                    <span>its security is 10x more than the competition</span>
-                </P>
+
+            <!-- this is the third faq box -->
+
+            <div class="faqboxes">
+                <img src="img/plus-circle-svgrepo-com.png" alt="plus circle" class="pluscircle plus" id="plusimage">
+                <img src="img/minus-circle-svgrepo-com (2).png" alt="minus circle" class="minuscircle minus" id="minuscircle">
+                <div class="questionbox">
+                    <button id="question" class="questions quest">Do I have to convert my room to a smart-home?</button>
+                    <div id="answer" class="answers ans">
+                        <P>Ghost is decentralized. Since it doesn't need 
+                            <span> the internet to function, its security is 10x more </span>
+                            <span> than the competition </span>
+                         </P>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="faqboxes"><img src="img/plus-circle-svgrepo-com.png" alt="plus circle" class="pluscircle">
-            <img src="img/minus-circle-svgrepo-com.png" alt="minus circle" class="pluscircle minuscircle">
-            <div class="questionbox">
-                <h3 class="questions">How reliable is it?</h3>
-                <P>Ghost is decentralized. Since it doesn't need the internet to function,
-                    <span>its security is 10x more than the competition</span>
-                </P>
+
+            <!-- this is the fourth faq box -->
+
+            <div class="faqboxes">
+                <img src="img/plus-circle-svgrepo-com.png" alt="plus circle" class="pluscircle plus" id="plusimage">
+                <img src="img/minus-circle-svgrepo-com (2).png" alt="minus circle" class="minuscircle minus" id="minuscircle">
+                <div class="questionbox">
+                    <button id="question" class="questions quest">How reliable is it?</button>
+                    <div id="answer" class="answers ans">
+                        <P>Ghost is decentralized. Since it doesn't need 
+                            <span> the internet to function, its security is 10x more </span>
+                            <span> than the competition </span>
+                         </P>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="faqboxes"><img src="img/plus-circle-svgrepo-com.png" alt="plus circle" class="pluscircle">
-            <img src="img/minus-circle-svgrepo-com.png" alt="minus circle" class="pluscircle minuscircle">
-            <div class="questionbox">
-                <h3 class="questions">What if internet is down?</h3>
-                <P>Ghost is decentralized. Since it doesn't need the internet to function,
-                    <span>its security is 10x more than the competition</span>
-                </P>
-            </div>
-        </div>
-        <div class="faqboxes"><img src="img/plus-circle-svgrepo-com.png" alt="plus circle" class="pluscircle">
-            <img src="img/minus-circle-svgrepo-com.png" alt="minus circle" class="pluscircle minuscircle">
-            <div class="questionbox">
-                <h3 class="questions">How much is it? Can I make installation payment?</h3>
-                <P>Ghost is decentralized. Since it doesn't need the internet to function,
-                    <span>its security is 10x more than the competition</span>
-                </P>
-            </div>
-        </div>
+
+                <!-- this is the fifth faq box -->
+
+                <div class="faqboxes">
+                    <img src="img/plus-circle-svgrepo-com.png" alt="plus circle" class="pluscircle plus" id="plusimage">
+                    <img src="img/minus-circle-svgrepo-com (2).png" alt="minus circle" class="minuscircle minus" id="minuscircle">
+                    <div class="questionbox">
+                        <button id="question" class="questions quest">What if internet is down?</button>
+                        <div id="answer" class="answers ans">
+                            <P>Ghost is decentralized. Since it doesn't need 
+                                <span> the internet to function, its security is 10x more </span>
+                                <span> than the competition </span>
+                             </P>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- this is the sixth faq box -->
+
+                <div class="faqboxes">
+                    <img src="img/plus-circle-svgrepo-com.png" alt="plus circle" class="pluscircle plus" id="plusimage">
+                    <img src="img/minus-circle-svgrepo-com (2).png" alt="minus circle" class="minuscircle minus" id="minuscircle">
+                    <div class="questionbox">
+                        <button id="question" class="questions quest">How much is it? Can I make installation payment?</button>
+                        <div id="answer" class="answers ans">
+                            <P>Ghost is decentralized. Since it doesn't need 
+                                <span> the internet to function, its security is 10x more </span>
+                                <span> than the competition </span>
+                             </P>
+                        </div>
+                    </div>
+                </div>
+
+                    <!-- the next plan is to place the above questions in a box and the box will be set to relative postion so the question boxes can
+                    be set to absolute, in order not to affect other elements on the page when the answers are shown -->
+
+
+
+
+
+
+
+
+        
         <div class="are-you-ready">
             <h2>Are you ready for the <span style="color: #BD000D;">ghost switch <span
                         id="upgrade">upgrade?</span></span></h2>
@@ -356,7 +414,7 @@
             </div>
         </div>
     </footer>
-    <script src="js/main.js"></script> 
+    <script src="js/main.js"></script>
 </body>
 
 </html>
