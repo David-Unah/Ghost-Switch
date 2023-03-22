@@ -642,6 +642,10 @@ span {
 
 }
 
+.faqboxes:hover {
+    cursor: pointer;
+}
+
 
 .faqboxes.active   .answers {
     display: block;
@@ -759,6 +763,123 @@ span {
     display: inline;
 }
 
+ /* this is the css codes for the Ghost-s page */
+
+.ghost-s_2nd_main {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.leftof2nd-main {
+    padding: 30px 0px 0px 60px;
+}
+
+
+
+.ghost-s_2nd_main  h1 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 132.03%;
+    color: #222222;
+    margin-bottom: 20px;
+}
+
+
+.ghost-s_2nd_main p {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 132.03%;
+    color: #727171;
+    margin-bottom: 20px;
+}
+
+.ghost-s_2nd_main a.watch {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 132.03%;
+    color: #323232;
+}
+
+.mobile-watch-review {
+    display: none;
+}
+
+
+
+.vid {
+    position: relative;
+    top: 7px;
+}
+
+.threelinks-box {
+    margin-top: 20px;
+}
+
+.mobilethreelink-box {
+    display: none;
+}
+
+.threeside-links {
+    margin-right: 27px ;
+}
+
+
+.yellowlink {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 132.03%;
+    color: #FFCE31;
+}
+
+
+.blacklinks {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 132.03%;
+    color: #323232;
+}
+
+#talk {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 132.03%;
+    color: #323232;
+}
+
+.whats-and-phone {
+    position: relative;
+    top: 7px;
+    left: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* this is the css design for the  footer */
 
@@ -859,7 +980,7 @@ footer {
 
 /* this is the media quary for mobile devices */ 
 
-@media only screen and (max-width: 1252px) {
+@media only screen and (max-width: 700px) {
 
     .overlay {
         display: none;
@@ -1337,6 +1458,150 @@ footer {
     display: inline;
     color: #000;
 }
+
+
+/* this is the css design for the ghost-s page mobile view */
+
+
+.ghost-s_2nd_main {
+    flex-direction: column;
+}
+
+.secondmain-family-imagebox {
+    width: 100%;
+}
+
+#secondmainfamilyimage {
+    width: 100%;
+    height: 326px;
+}
+
+
+.leftof2nd-main {
+    width: 100%;
+    padding: 30px 0px 0px 00px;
+}
+
+
+
+.ghost-s_2nd_main  h1 {
+    font-size: 30px;
+}
+
+
+.ghost-s_2nd_main p {
+    font-size: 20px;
+}
+
+
+.ghost-s_2nd_main a.watch {
+    display: none;
+}
+
+.small-watch {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 132.03%;
+    color: #4D4D4D;
+}
+
+.mobile-watch-review {
+    display: block;
+    text-align: right;
+}
+
+
+
+.vid {
+    width: 13.33px;
+    height: 13.33px;
+    position: relative;
+    top: 3.5px;
+    left: 2px;
+}
+
+.threelinks-box {
+    display: none;
+}
+
+.mobilethreelink-box {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#mobile-ordernow-arrow {
+    position: relative;
+    top: 7px;
+}
+
+#mobile-whatsapp {
+    margin-right: 32px;
+}
+
+.whats-call  {
+    margin-top: 3px;
+}
+
+
+.threeside-links {
+    margin-right: 27px ;
+}
+
+.yellowlink {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 132.03%;
+    color: #FFCE31;
+}
+
+
+.blacklinks {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 132.03%;
+    color: #323232;
+}
+
+#talk {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 132.03%;
+    color: #323232;
+}
+
+.whats-and-phone {
+    position: relative;
+    top: 7px;
+    left: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* this is the footer for the mobile view */
 
