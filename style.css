@@ -854,6 +854,57 @@ span {
     left: 3px;
 }
 
+   /* ghost-s third box css codes */
+
+
+.ghost-s-thirdbox {
+    width: 85%;
+    margin: auto;
+    margin-bottom: 150px;
+}
+
+.ghost-s-thirdbox h2 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 132.03%;
+    color: #222222;
+    margin-bottom: 30px;
+
+}
+
+
+.ghost-s-thirdbox p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 192%;
+    color: #222222;
+}
+
+
+#thirdbox-2ndp {
+    margin-top: 40px;
+}
+
+#thirdboxp-formobile {
+    display: none;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1577,10 +1628,46 @@ footer {
     left: 3px;
 }
 
+        /* this is the css code for the ghost-s  third box */
+
+.ghost-s-thirdbox {
+    width: 89%;
+    margin: auto;
+    margin-bottom: 150px;
+}
+
+.ghost-s-thirdbox h2 {
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 30px;
+    text-align: center;
+}
 
 
 
+#thirdboxp-forpc {
+    display: none;
+}
 
+/* #thirdbox-2ndp {
+    margin-top: 40px;
+} */
+
+
+#thirdboxp-formobile {
+    display: block;
+
+}
+
+#thirdboxp-formobile p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 192%;
+    color: #222222;
+    margin-bottom: 21px;
+}
 
 
 
