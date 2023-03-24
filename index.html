@@ -7,25 +7,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ghost Switch</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="Ghost_S" href="ghost-s.html">
 </head>
 
 <body>
-    <div class="overlay">
-        <div style="text-align: right;">
+    <div id="myOverlay" class="overlay">
+        <div style="text-align: right">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="img/cross.png" alt="cross"></a>
         </div>
         <div class="overlay-content">
-            <a href="#">Home</a>
+            <a href="#main-icon">Home</a>
 
 
 
 
 
             <div class="dropdown"> <!-- this is the dropdown box -->
-                <button id="dropbtn">Products &nbsp;<img src="img/left-arrow-backup-2-svgrepo-com 1.png" alt="dropdown arrow" class="dropdown-arrow" id="drop-arrow"></button>
+                <button id="dropbtn">Products &nbsp;<img src="img/left-arrow-backup-2-svgrepo-com 1.png"
+                        alt="dropdown arrow" class="dropdown-arrow" id="drop-arrow"></button>
                 <div id="myDropdown" class="inneroverlay">
-                    <a href="#" class="inner-content">Ghost_S</a>
-                    <a href="#" class="inner-content">Ghost Air</a>
+                    <a href="ghost-s.html" class="inner-content">Ghost_S</a>
+                    <a href="Ghost-Air.html" class="inner-content">Ghost Air <img src="img/Group 244 (1).png"
+                            alt="coming soon icon"></a>
                     <a href="#" class="inner-content">Ghost Safe Lock <img src="img/Group 244 (1).png"
                             alt="coming soon icon"></a>
                 </div>
@@ -38,23 +41,24 @@
 
 
             </a>
-            <a href="#">Services</a>
+            <a href="#ourservices">Services</a>
             <a href="#">Company</a>
-            <a href="#">Contact</a>
+            <a href="#call-us">Contact</a>
         </div>
     </div>
     <nav>
-        <a href="#"><img src="img/Group 47.png" alt="Ghostswitch icons" width="168" height="55" id="main-icon"></a>
+        <a href="#"><img src="img/Group 47 (1).png" alt="Ghostswitch icons" width="168" height="55" id="main-icon"></a>
         <div class="nav-icons">
             <a href="#" class="firstlinks">Home</a>
             <div style="position: relative;" class="products">
                 <a href="#" class="firstlinks">Products</a>
                 <div id="product-dropdown">
                     <!-- this div should be position absolute because it is a dropdown for Products -->
-                    <a href="#">Ghost_S</a>
-                    <a href="#">Ghost Air</a>
+                    <a href="ghost-s.html">Ghost_S</a>
+                    <a href="Ghost-Air.html">Ghost Air <img src="img/Group 244.png" alt="coming soon icon" width="56" height="12"
+                            class="comining-soon"></a>
                     <a href="#">Ghost Safe Lock <img src="img/Group 244.png" alt="coming soon icon" width="56"
-                            height="12" id="comining-soon">
+                            height="12" class="comining-soon">
                     </a>
                 </div>
             </div>
@@ -68,7 +72,8 @@
                     width="20" height="20"></a>
             <a href="#call-us" id="callogo"><img src="img/phone-svgrepo-com (1) 1.png" alt="phone icon" width="20"
                     height="20"></a>
-            <a href="#"><img src="img/menu-svgrepo-com (2) 1.png" alt="menubox icon" width="30" height="30"></a>
+            <button onclick="openNav()"><img src="img/menu-svgrepo-com (2) 1 (1).png" alt="menubox icon" width="30"
+                    height="30"></button>
         </div>
     </nav>
 
@@ -77,7 +82,7 @@
             <div class="inner-main">
                 <h1>Upgrade to
                     <span>Smart Living</span>
-                    <span>with <span id="red-ghost">Ghost Switch</span></span>
+                    <span>with <span id="yellow-ghost">Ghost Switch</span></span>
                 </h1>
                 <div class="talk-to-us-parentbox"> <!-- this should be displayed flex -->
                     <a href="#">
@@ -89,7 +94,7 @@
                 </div>
             </div>
             <div>
-                <img src="img/Group 76.png" alt="phone design" width="610" height="649" id="phone-design">
+                <img src="img/Group 76 (1).png" alt="phone design" width="610" height="649" id="phone-design">
             </div>
         </div>
         <h2 class="why-ghost" style="text-align: center; margin: 80px 0px 60px 0px;">Why Ghost Switch
@@ -97,24 +102,24 @@
         </h2>
         <div class="second-main-box">
             <!-- this div will have a background image of the yellow board and will be displayed flex-->
-            <div id="home-connection-image"><img src="img/Mask group (10).png" alt="home connection illustration"
-                    id="home-connection"></div>
+            <div id="home-connection-image"><img src="img/Mask group (17).png" alt="home connection illustration"
+                    id="family-image"></div>
             <div id="reason-box">
-                <div class="reasons mid"><img src="img/Group 49.png" alt="piggybank icon" width="85" height="81"
+                <div class="reasons mid"><img src="img/Group 49 (1).png" alt="piggybank icon" width="85" height="81"
                         class="reason-image">
                     <p>Affordable luxury</p>
                 </div>
-                <div class="reasons mid"><img src="img/Group 51.png" alt="bulb icon" width="85" height="81"
+                <div class="reasons mid"><img src="img/Group 51 (1).png" alt="bulb icon" width="85" height="81"
                         class="reason-image">
                     <p>Save Electricity by 50%</p>
                 </div>
-                <div class="reasons mid"><img src="img/Group 53.png" alt="remote icon" width="85" height="81"
+                <div class="reasons mid"><img src="img/Group 53 (1).png" alt="remote icon" width="85" height="81"
                         class="reason-image">
-                    <p>Manage your property Remotely</p>
+                    <p>Manage your property <span>Remotely</span></p>
                 </div>
-                <div class="reasons"><img src="img/Group 55.png" alt="shield icon" width="85" height="81"
+                <div class="reasons"><img src="img/Group 55 (1).png" alt="shield icon" width="85" height="81"
                         class="reason-image">
-                    <p>Protect what you care about</p>
+                    <p>Protect what you care <span>about</span></p>
                 </div>
             </div>
         </div>
@@ -130,8 +135,8 @@
                         <p><img src="img/Ellipse 2.png" alt="blue dot">&nbsp; Alexa</p>
                         <p><img src="img/Ellipse 3.png" alt="multicolor dot">&nbsp; Google smart homes</p>
                     </div>
-                    <a href="#">Get Started &nbsp;<img src="img/Vector (6).png" alt="right arrow"
-                            class="red-right-arrow"><img src="img/Vector (7).png" alt="black right arrow"
+                    <a href="#">Get Started &nbsp;<img src="img/Vector (8).png" alt="right arrow"
+                            class="yellow-right-arrow"><img src="img/Vector (7).png" alt="black right arrow"
                             class="black-right-arrow"></a>
                 </div>
             </div>
@@ -140,8 +145,8 @@
                         class="tile-images"></div>
                 <div class="ourservics-minibox">
                     <h3 style="margin-bottom: 44px;">Solar Energy Installation</h3>
-                    <a href="#">Get Started &nbsp;<img src="img/Vector (6).png" alt="right arrow"
-                            class="red-right-arrow"><img src="img/Vector (7).png" alt="black right arrow"
+                    <a href="#">Get Started &nbsp;<img src="img/Vector (8).png" alt="right arrow"
+                            class="yellow-right-arrow"><img src="img/Vector (7).png" alt="black right arrow"
                             class="black-right-arrow"></a>
                 </div>
             </div>
@@ -153,8 +158,8 @@
                         class="tile-images"></div>
                 <div class="ourservics-minibox">
                     <h3 style="margin-bottom: 44px;">CCTV Installation</h3>
-                    <a href="#">Get Started &nbsp;<img src="img/Vector (6).png" alt="right arrow"
-                            class="red-right-arrow"><img src="img/Vector (7).png" alt="black right arrow"
+                    <a href="#">Get Started &nbsp;<img src="img/Vector (8).png" alt="right arrow"
+                            class="yellow-right-arrow"><img src="img/Vector (7).png" alt="black right arrow"
                             class="black-right-arrow"></a>
                 </div>
             </div>
@@ -163,8 +168,8 @@
                         class="tile-images"></div>
                 <div class="ourservics-minibox">
                     <h3 style="margin-bottom: 44px;">Power Inverter SetUp</h3>
-                    <a href="#">Get Started &nbsp;<img src="img/Vector (6).png" alt="right arrow"
-                            class="red-right-arrow"><img src="img/Vector (7).png" alt="black right arrow"
+                    <a href="#">Get Started &nbsp;<img src="img/Vector (8).png" alt="right arrow"
+                            class="yellow-right-arrow"><img src="img/Vector (7).png" alt="black right arrow"
                             class="black-right-arrow"></a>
                 </div>
             </div>
@@ -251,69 +256,133 @@
             </div>
         </div>
         <h2 class="faq">FAQ</h2>
-        <div class="faqboxes"><img src="img/plus-circle-svgrepo-com.png" alt="plus circle" class="pluscircle">
-            <img src="img/minus-circle-svgrepo-com.png" alt="minus circle" class="pluscircle minuscircle">
+
+
+
+        <!-- this is first faq box -->
+
+        <div class="faqboxes">
+            <img src="img/plus-circle-svgrepo-com.png" alt="plus circle" class="pluscircle plus" id="plusimage">
+            <img src="img/minus-circle-svgrepo-com (2).png" alt="minus circle" class="minuscircle minus"
+                id="minuscircle">
             <div class="questionbox">
-                <h3 class="questions">Can Ghost Switch be Hacked?</h3>
-                <P>Ghost is decentralized. Since it doesn't need the internet to function,
-                    <span>its security is 10x more than the competition</span>
-                </P>
+                <button id="question" class="questions quest">Can Ghost Switch be Hacked?</button>
+                <div id="answer" class="answers ans">
+                    <P>Ghost is decentralized. Since it doesn't need
+                        <span> the internet to function, its security is 10x more </span>
+                        <span> than the competition </span>
+                    </P>
+                </div>
             </div>
         </div>
-        <div class="faqboxes"><img src="img/plus-circle-svgrepo-com.png" alt="plus circle" class="pluscircle">
-            <img src="img/minus-circle-svgrepo-com.png" alt="minus circle" class="pluscircle minuscircle">
+
+        <!-- this is the second faq box -->
+
+        <div class="faqboxes">
+            <img src="img/plus-circle-svgrepo-com.png" alt="plus circle" class="pluscircle plus" id="plusimage">
+            <img src="img/minus-circle-svgrepo-com (2).png" alt="minus circle" class="minuscircle minus"
+                id="minuscircle">
             <div class="questionbox">
-                <h3 class="questions">How many rooms can ghost control?</h3>
-                <P>Ghost is decentralized. Since it doesn't need the internet to function,
-                    <span>its security is 10x more than the competition</span>
-                </P>
+                <button id="question" class="questions quest">How many rooms can Ghost Switch Control?</button>
+                <div id="answer" class="answers ans">
+                    <P>Ghost is decentralized. Since it doesn't need
+                        <span> the internet to function, its security is 10x more </span>
+                        <span> than the competition </span>
+                    </P>
+                </div>
             </div>
         </div>
-        <div class="faqboxes"><img src="img/plus-circle-svgrepo-com.png" alt="plus circle" class="pluscircle">
-            <img src="img/minus-circle-svgrepo-com.png" alt="minus circle" class="pluscircle minuscircle">
+
+        <!-- this is the third faq box -->
+
+        <div class="faqboxes">
+            <img src="img/plus-circle-svgrepo-com.png" alt="plus circle" class="pluscircle plus" id="plusimage">
+            <img src="img/minus-circle-svgrepo-com (2).png" alt="minus circle" class="minuscircle minus"
+                id="minuscircle">
             <div class="questionbox">
-                <h3 class="questions">Do I have to convert my whole house to a smart-home?</h3>
-                <P>Ghost is decentralized. Since it doesn't need the internet to function,
-                    <span>its security is 10x more than the competition</span>
-                </P>
+                <button id="question" class="questions quest">Do I have to convert my room to a smart-home?</button>
+                <div id="answer" class="answers ans">
+                    <P>Ghost is decentralized. Since it doesn't need
+                        <span> the internet to function, its security is 10x more </span>
+                        <span> than the competition </span>
+                    </P>
+                </div>
             </div>
         </div>
-        <div class="faqboxes"><img src="img/plus-circle-svgrepo-com.png" alt="plus circle" class="pluscircle">
-            <img src="img/minus-circle-svgrepo-com.png" alt="minus circle" class="pluscircle minuscircle">
+
+        <!-- this is the fourth faq box -->
+
+        <div class="faqboxes">
+            <img src="img/plus-circle-svgrepo-com.png" alt="plus circle" class="pluscircle plus" id="plusimage">
+            <img src="img/minus-circle-svgrepo-com (2).png" alt="minus circle" class="minuscircle minus"
+                id="minuscircle">
             <div class="questionbox">
-                <h3 class="questions">How reliable is it?</h3>
-                <P>Ghost is decentralized. Since it doesn't need the internet to function,
-                    <span>its security is 10x more than the competition</span>
-                </P>
+                <button id="question" class="questions quest">How reliable is it?</button>
+                <div id="answer" class="answers ans">
+                    <P>Ghost is decentralized. Since it doesn't need
+                        <span> the internet to function, its security is 10x more </span>
+                        <span> than the competition </span>
+                    </P>
+                </div>
             </div>
         </div>
-        <div class="faqboxes"><img src="img/plus-circle-svgrepo-com.png" alt="plus circle" class="pluscircle">
-            <img src="img/minus-circle-svgrepo-com.png" alt="minus circle" class="pluscircle minuscircle">
+
+        <!-- this is the fifth faq box -->
+
+        <div class="faqboxes">
+            <img src="img/plus-circle-svgrepo-com.png" alt="plus circle" class="pluscircle plus" id="plusimage">
+            <img src="img/minus-circle-svgrepo-com (2).png" alt="minus circle" class="minuscircle minus"
+                id="minuscircle">
             <div class="questionbox">
-                <h3 class="questions">What if internet is down?</h3>
-                <P>Ghost is decentralized. Since it doesn't need the internet to function,
-                    <span>its security is 10x more than the competition</span>
-                </P>
+                <button id="question" class="questions quest">What if internet is down?</button>
+                <div id="answer" class="answers ans">
+                    <P>Ghost is decentralized. Since it doesn't need
+                        <span> the internet to function, its security is 10x more </span>
+                        <span> than the competition </span>
+                    </P>
+                </div>
             </div>
         </div>
-        <div class="faqboxes"><img src="img/plus-circle-svgrepo-com.png" alt="plus circle" class="pluscircle">
-            <img src="img/minus-circle-svgrepo-com.png" alt="minus circle" class="pluscircle minuscircle">
+
+        <!-- this is the sixth faq box -->
+
+        <div class="faqboxes">
+            <img src="img/plus-circle-svgrepo-com.png" alt="plus circle" class="pluscircle plus" id="plusimage">
+            <img src="img/minus-circle-svgrepo-com (2).png" alt="minus circle" class="minuscircle minus"
+                id="minuscircle">
             <div class="questionbox">
-                <h3 class="questions">How much is it? Can I make installation payment?</h3>
-                <P>Ghost is decentralized. Since it doesn't need the internet to function,
-                    <span>its security is 10x more than the competition</span>
-                </P>
+                <button id="question" class="questions quest">How much is it? Can I make installation payment?</button>
+                <div id="answer" class="answers ans">
+                    <P>Ghost is decentralized. Since it doesn't need
+                        <span> the internet to function, its security is 10x more </span>
+                        <span> than the competition </span>
+                    </P>
+                </div>
             </div>
         </div>
+
+        <!-- the next plan is to place the above questions in a box and the box will be set to relative postion so the question boxes can
+                    be set to absolute, in order not to affect other elements on the page when the answers are shown -->
+
+
+        <div class="info-download-box"><a href="info/Ghost Switch.pdf" download><img src="img/info-svgrepo-com 1.png" alt="info icon"> read more
+                information on Ghost Switch</a>
+        </div>
+
+
+
+
+
+
         <div class="are-you-ready">
-            <h2>Are you ready for the <span style="color: #BD000D;">ghost switch <span
+            <h2>Are you ready for the <span style="color: #FABB05;">ghost switch <span
                         id="upgrade">upgrade?</span></span></h2>
             <a href="#">Talk to Us</a>
         </div>
     </main>
     <footer>
         <div class="footer-box">
-            <div><img src="img/Group 48.png" alt="ghostswitch logo" class="footmainimage"></div>
+            <div><img src="img/Group 48 (1).png" alt="ghostswitch logo" class="footmainimage"></div>
             <div class="products-services"> <!-- this div should be displayed flex -->
                 <div class="footerproduct-box">
                     <h3>Products</h3>
@@ -356,7 +425,7 @@
             </div>
         </div>
     </footer>
-    <script src="js/main.js"></script> 
+    <script src="js/main.js"></script>
 </body>
 
 </html>

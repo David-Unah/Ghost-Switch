@@ -16,14 +16,22 @@ body {
  /* this is overlay dropdown when the menu box is clicked */
 .overlay {
     display: none;
-    width: 100%;
+
+}
+
+
+button {
+    border: none;
+    background: none
+}
+ /*    width: 100%;
     height: 100%;
     background-image: linear-gradient(to bottom, #BB000D, #1E1E1E);
     z-index: 1;
     position: fixed;
     padding: 0px 20px;
     margin-top: -12px;
-}
+} */
 
 .overlay a {
     font-family: 'Poppins', sans-serif;
@@ -36,7 +44,7 @@ body {
     margin-bottom: 30px;
 }
 
-button {
+#dropbtn {
     font-weight: 400;
     font-size: 30px;
     line-height: 132.03%;
@@ -124,7 +132,7 @@ nav {
 }
 
 .firstlinks:hover {
-    color: #BD000D;
+    color: #FABB05;
 }
 
 /* this is the css for the product dropdown on hover */
@@ -148,7 +156,7 @@ nav {
     padding: 18px;
 }
 
-#comining-soon {
+.comining-soon {
     position: relative;
     top: 2px;
     margin-left: 5px;
@@ -160,7 +168,7 @@ nav {
 }
 
 #product-dropdown a:hover {
-    color: #BD000D;
+    color: #F5CE2E;
 }
 
 #product-dropdown a:nth-child(2), a:last-child {
@@ -208,9 +216,9 @@ span {
     display: block;
 }
 
-#red-ghost {
+#yellow-ghost {
     display: inline;
-    color: #BD2423;
+    color: #FFCE31;
 }
 
 .talk-to-us-parentbox {
@@ -251,45 +259,41 @@ span {
     top: 5px;
 }
 
+#phone-design {
+    width: 100%;
+}
+
 .second-main-box {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    position: relative;
-    margin-left: 20%;
-    width: 80%;
+    width: 100%;
     height: 673px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 132.03%;
-    background-image: linear-gradient(180deg, rgba(252, 246, 189, 0.48) 0%, #FDF49D 77.6%);
     margin-bottom: 80px;
 }
 
-#home-connection-image {
-    position: relative;
-    right: 37%;
-}
 
-#home-connection {
+#family-image {
     width: 100%;
     height: auto;
-    position: relative;
-    bottom: 5px;
+    /* position: relative;
+    bottom: 5px; */
 }
-
-
 
 
 #reason-box {
     display: flex;
     flex-direction: column ;
-    height: 520px;
+    height: 450px;
     justify-content: space-between;
-    position: absolute;
-    right: 11%;
+    /* position: relative;
+    bottom: 20px;
+    right: 20px; */
 }
 
 .reasons {
@@ -373,11 +377,11 @@ span {
 }
 
 .third-main-box-one a:hover {
-    color: #BD000D;
+    color: #F5CE2E;
 
 }
 
-.third-main-box-one a:hover .red-right-arrow {
+.third-main-box-one a:hover .yellow-right-arrow {
     display: inline-block;
 }
 
@@ -386,7 +390,7 @@ span {
 }
 
 
-.red-right-arrow {
+.yellow-right-arrow {
     display: none;
 }
 
@@ -634,13 +638,29 @@ span {
     /* justify-content: center; */
     width: 60%;
     margin: auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 28px;
+    padding-bottom: 18px;
     padding-left: 100px;
     background-color: #F0F0F0;
-    border: 1px solid black;
     margin-bottom: 30px;
 
+}
+
+.faqboxes:hover {
+    cursor: pointer;
+}
+
+
+.faqboxes.active   .answers {
+    display: block;
+}
+
+.faqboxes.active   .pluscircle {
+    display: none;
+}
+
+.faqboxes.active   .minuscircle {
+    display: block;
 }
 
 .pluscircle {
@@ -651,6 +671,8 @@ span {
 
 .minuscircle {
     display: none;
+    width: 38px;
+    height: 38px;
 }
 
 
@@ -661,21 +683,66 @@ span {
 }
 
 
-.questionbox h3 {
+.questions {
     font-weight: 500;
     font-size: 20px;
     line-height: 132.03%;
     color: #222222;
     padding-top: 8px;
     margin-bottom: 15px;
+    
 }
 
 .questionbox p {
-    display: none;
     font-weight: 400;
     font-size: 16px;
     line-height: 170.53%;
     color: #4D4D4D;
+    margin-bottom: 5px;
+}
+
+.answers {
+    display: none;
+}
+
+
+.drop {
+    display: block;
+}
+
+.undrop{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.info-download-box {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.info-download-box a {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    color: #4285F4;
+}
+
+.info-download-box img {
+    position: relative;
+    top: 9px;
+    margin-right: 6px;
 }
 
 
@@ -695,6 +762,10 @@ span {
     line-height: 132.03%;
 }
 
+#upgrade {
+    color: #000;
+}
+
 .are-you-ready a {
     font-weight: 600;
     font-size: 30px;
@@ -709,6 +780,246 @@ span {
 .are-you-ready span {
     display: inline;
 }
+
+ /* this is the css codes for the Ghost-s page */
+
+.ghost-s_2nd_main {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.leftof2nd-main {
+    padding: 30px 0px 0px 60px;
+}
+
+
+
+.ghost-s_2nd_main  h1 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 132.03%;
+    color: #222222;
+    margin-bottom: 20px;
+}
+
+
+.ghost-s_2nd_main p {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 132.03%;
+    color: #727171;
+    margin-bottom: 20px;
+}
+
+.ghost-s_2nd_main a.watch {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 132.03%;
+    color: #323232;
+}
+
+.mobile-watch-review {
+    display: none;
+}
+
+
+
+.vid {
+    position: relative;
+    top: 7px;
+}
+
+.threelinks-box {
+    margin-top: 20px;
+}
+
+.mobilethreelink-box {
+    display: none;
+}
+
+.threeside-links {
+    margin-right: 27px ;
+}
+
+
+.yellowlink {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 132.03%;
+    color: #FFCE31;
+}
+
+
+.blacklinks {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 132.03%;
+    color: #323232;
+}
+
+#talk {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 132.03%;
+    color: #323232;
+}
+
+.whats-and-phone {
+    position: relative;
+    top: 7px;
+    left: 3px;
+}
+
+   /* ghost-s third box css codes */
+
+
+.ghost-s-thirdbox {
+    width: 85%;
+    margin: auto;
+    margin-bottom: 150px;
+}
+
+.ghost-s-thirdbox h2 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 132.03%;
+    color: #222222;
+    margin-bottom: 30px;
+
+}
+
+
+.ghost-s-thirdbox p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 192%;
+    color: #222222;
+}
+
+
+#thirdbox-2ndp {
+    margin-top: 40px;
+}
+
+#thirdboxp-formobile {
+    display: none;
+    
+}
+
+/* this is for ghost-s fourth main box */
+
+.ghost-s-fourthmainbox {
+    display: flex;
+    justify-content: space-between;
+    background-color: #E8F0FE;
+    padding: 47px 100px 0px 100px;
+    margin-bottom: 100px;
+}
+
+.ghs-4thfirst-inner {
+    padding-top: 113px;
+}
+
+
+.ghs-4thfirst-inner h2 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 132.03%;
+    color: #222222;
+    margin-bottom: 80px;
+}
+
+.ghs-4thfirst-inner div h3 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFCE31;
+}
+
+.ghs-4thfirst-inner div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.ghs-4thfirst-inner div p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 132.03%;
+    color: #222222;
+    margin-left: 25px;
+}
+
+.ghost-s-fourthmainbox div img {
+    display: block;
+}
+
+.ghs-howitworksmobile {
+   display: none; 
+}
+
+
+/* this is for the fifth main box for ghost- s*/ 
+
+.ghs-fifthmainbox {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 130px;
+}
+
+.ghs-fifthmainbox div p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 192%;
+    color: #222222; 
+    margin-bottom: 24px;
+}
+
+.ghs-fifthmainbox div a {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 192%;
+    color: #FCFCFC;
+    background-color: #000000;
+    padding: 12px 24px;
+}
+
+.ght-fifthmain-2ndbox {
+    width: 100%;
+    margin-left: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* this is the css design for the  footer */
@@ -732,7 +1043,7 @@ footer {
     font-weight: 600;
     font-size: 18px;
     line-height: 169.53%;
-    color: #BD000D;
+    color: #F5CE2E;
     margin-bottom: 20px;
 }
 
@@ -810,11 +1121,28 @@ footer {
 
 /* this is the media quary for mobile devices */ 
 
-@media only screen and (max-width: 1252px) {
+@media only screen and (max-width: 900px) {
 
     .overlay {
-        display: block;
+        display: none;
+        width: 100%;
+        height: 100%;
+        background-color: #F5CE2E;
+        color: #FFFFFF;
+        z-index: 2;
+        position: fixed;
+        padding: 0px 20px;
+        margin-top: -12px;
+        transition: 0.5s;
+}    
+
+    .overlay-content {
+        position: relative;
     }
+
+
+
+
 
     #main-icon {
         width: 108px;
@@ -822,7 +1150,10 @@ footer {
     }
  
     nav {
-        z-index: -1;
+        height: 51px;
+        align-items: self-start;
+        padding-top: 2%;
+        z-index: 1;
     }
 
 
@@ -882,7 +1213,7 @@ footer {
     }
 
     #phone-design {
-        width: 223px;
+        width: 99%;
         height: 275px;
     }
 
@@ -891,6 +1222,7 @@ footer {
         font-weight: 600;
         font-size: 20px;
         line-height: 132.03%;
+        margin: 45px 0px 24px 0px;
     }
 
 
@@ -900,12 +1232,12 @@ footer {
         position: relative;
         width: 100%;
         margin: 0;
-        max-height: 436px;
+        max-height: 659px;
         font-weight: 700;
         font-size: 14px;
         line-height: 132.03%;
-        margin-top: 149px;
-        margin-bottom: 60px;
+        margin-top: 125px;
+        margin-bottom: 73px;
     }
 
     #home-connection-image {
@@ -915,22 +1247,19 @@ footer {
         bottom: -27px;
     }
 
-    #home-connection {
-        width: 90%;
-        height: auto;
-        position: relative;
-        bottom: 112px;
+    #family-image {
+        width: 85%;
+        min-height: 314px;
+        margin-bottom: 61px;
     }
     
     #reason-box {
         display: flex;
         flex-direction: column ;
         height: 292px;
-        text-align: center;
+        text-align: left;
         justify-content: space-between;
-        position: relative;
-        bottom: 67px;
-        margin-left: 84px;
+        margin-bottom: 125px;
         
     }
     
@@ -940,7 +1269,7 @@ footer {
     }
     
     .mid {
-        margin-bottom: 17px;
+        margin-bottom: 28px;
     }
 
 
@@ -1167,12 +1496,12 @@ footer {
    /*  justify-content: center; */
     width: 85%;
     margin: auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 31px;
+    padding-top: 21px;
+    padding-bottom: 4px;
+    padding-left: 5px;
     background-color: #F0F0F0;
     border: none;
-    margin-bottom: 30px
+    margin-bottom: 19px;
 
 }
 
@@ -1197,6 +1526,8 @@ footer {
 
 .minuscircle {
     display: none;
+    width: 20px;
+    height: 20px;
 }
 
 
@@ -1207,20 +1538,52 @@ footer {
 }
 
 
-.questionbox h3 {
+.questions {
     font-size: 12px;
+    margin-bottom: 8px;
+    position: relative;
+    bottom: 5px;
+    right: 8px;
 
 }
 
-.questionbox p {
+.answers p {
     font-size: 10px;
 
 }
 
 
 .questionbox p span {
-    display: inline;
+    display: block;
 }
+
+.answers {
+    position: relative;
+    right: 8px;
+    bottom: 11px;
+}
+
+
+
+.info-download-box {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.info-download-box a {
+    font-size: 12px;
+}
+
+.info-download-box img {
+    width: 23px;
+    height: 23px;
+    position: relative;
+    top: 7px;
+    margin-right: 3px;
+}
+
+
+
 
 .are-you-ready {
     display: flex;
@@ -1253,6 +1616,316 @@ footer {
     display: inline;
     color: #000;
 }
+
+
+/* this is the css design for the ghost-s page mobile view */
+
+
+.ghost-s_2nd_main {
+    flex-direction: column;
+}
+
+.secondmain-family-imagebox {
+    width: 100%;
+}
+
+#secondmainfamilyimage {
+    width: 100%;
+    height: 326px;
+}
+
+
+.leftof2nd-main {
+    width: 100%;
+    padding: 30px 0px 0px 00px;
+}
+
+
+
+.ghost-s_2nd_main  h1 {
+    font-size: 30px;
+}
+
+
+.ghost-s_2nd_main p {
+    font-size: 20px;
+}
+
+
+.ghost-s_2nd_main a.watch {
+    display: none;
+}
+
+.small-watch {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 132.03%;
+    color: #4D4D4D;
+}
+
+.mobile-watch-review {
+    display: block;
+    text-align: right;
+}
+
+
+
+.vid {
+    width: 13.33px;
+    height: 13.33px;
+    position: relative;
+    top: 3.5px;
+    left: 2px;
+}
+
+.threelinks-box {
+    display: none;
+}
+
+.mobilethreelink-box {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#mobile-ordernow-arrow {
+    position: relative;
+    top: 7px;
+}
+
+#mobile-whatsapp {
+    margin-right: 32px;
+}
+
+.whats-call  {
+    margin-top: 3px;
+}
+
+
+.threeside-links {
+    margin-right: 27px ;
+}
+
+.yellowlink {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 132.03%;
+    color: #FFCE31;
+}
+
+
+.blacklinks {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 132.03%;
+    color: #323232;
+}
+
+#talk {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 132.03%;
+    color: #323232;
+}
+
+.whats-and-phone {
+    position: relative;
+    top: 7px;
+    left: 3px;
+}
+
+        /* this is the css code for the ghost-s  third box */
+
+.ghost-s-thirdbox {
+    width: 89%;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.ghost-s-thirdbox h2 {
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+
+#thirdboxp-forpc {
+    display: none;
+}
+
+/* #thirdbox-2ndp {
+    margin-top: 40px;
+} */
+
+
+#thirdboxp-formobile {
+    display: block;
+
+}
+
+#thirdboxp-formobile p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 192%;
+    color: #222222;
+    margin-bottom: 21px;
+}
+
+
+/* this is for ghost-s fourth main box mobile view */
+
+.ghost-s-fourthmainbox {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    background-color: #E8F0FE;
+    padding: 40px 0px 0px 0px;
+    margin-bottom: 20px;
+}
+
+.ghs-4thfirst-inner {
+    padding-top: 61px;
+}
+
+
+.ghs-howitworksmobile {
+    display: block;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 132.03%;
+    color: #222222;
+    text-align: center;
+    margin-bottom: 23px; 
+}
+
+.ghs-howitworksweb  {
+    display: none;
+}
+
+.ghs-4thfirst-inner div h3 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.ghs-4thfirst-inner div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.ghs-4thfirst-inner div p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 132.03%;
+    color: #222222;
+    margin-top: 26px;
+    margin-left: 0px;   
+}
+
+span#p-child {
+    text-align: center;
+}
+
+.ghs-forthmain-imgbox {
+    display: flex;
+    justify-content: center;
+}
+
+.ghost-s-fourthmainbox div img {
+    display: block;
+    width: 65%;
+    height: 255px;
+}
+
+
+
+/* this  is the fifth main box css for mobile */
+
+.ghs-fifthmainbox {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.ghs-fifthmainbox div p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 192%;
+    color: #222222; 
+    margin-bottom: 24px;
+}
+
+.ghs-fifthmainbox div a {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 192%;
+    color: #FCFCFC;
+    background-color: #000000;
+    padding: 12px 24px;
+}
+
+.ght-fifthmain-2ndbox {
+    margin-top: 20px;
+    text-align: center;
+    margin-right: 0%;
+    margin-left: 0px;
+    padding-bottom: 17px
+}
+
+.fifthmain-child {
+    width: 100%;
+}
+
+
+.ghs-fifthmainbox-1stbox {
+    text-align: center;
+}
+
+
+.ghs-fifthmainbox-1stbox img {
+    width: 90%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* this is the footer for the mobile view */
 
