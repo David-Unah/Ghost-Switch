@@ -1,0 +1,433 @@
+.ghost-air-secondmain {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 190px;
+}
+
+
+.ghost-air-secondmain h1 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 132.03%;
+    color: #222222;
+    margin-bottom: 30px;
+}
+
+.ghost-air-secondmain p {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 132.03%;
+    color: #727171;
+    margin-bottom: 20px;
+}
+
+.GA-comingsoon {
+    margin-bottom: 20px;
+}
+
+
+.ghost-air-secondmain a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 132.03%;
+    color: #323232;
+}
+
+.GA-secondman-2ndchild {
+    padding-left: 60px;
+}
+
+.GA-whatandcall {
+    position: relative;
+    top: 6px;
+}
+
+
+#GA-Phone {
+    margin-left: 70px;
+}
+
+/* this is the css for the third main box */
+
+
+.GA-thirdmain-box {
+    display: flex;
+    width: 100%;
+    height: 586px;
+    margin-bottom: 80px;
+}
+
+.GA-thirdmain-boxchildone {
+    text-align: center;
+    color: white;
+    width: 50%;
+    background-image: url(img/Group\ 330\ \(1\).png);
+}
+
+
+.GA-thirdmain-boxchildone h2 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 132.03%;
+    margin-top: 210px;
+    margin-bottom: 30px;
+}
+
+
+.GA-thirdmain-boxchildone p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 207.03%;
+}
+
+
+
+.GA-thirdmain-boxchildtwo {
+    width: 50%;
+    height: 586px;
+}
+
+.livingroom-image {
+    width: 100%;
+    height: 586px;
+    display: block;
+}
+
+
+/* this is for the fourth main box for the ghost air page */
+
+.GA-fourthmainbox {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.GA-fourthmainbox-child {
+    text-align: center;
+    padding: 45px 25px;
+    border: 1px solid #CECECE;
+    border-radius: 30px;
+}
+
+.GA-fourthmainbox-child img {
+    margin-bottom: 21px;
+}
+
+
+
+.GA-fourthmainbox-child h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 132.03%;
+    color: #323232;
+    margin-bottom: 8px;
+}
+
+
+.GA-fourthmainbox-child p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 145.53%;
+    color: #727171;
+}
+
+
+  /* this is the css codes for the fifth main box for ghost air */
+
+  .GA-fifthmainbox {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 66px 20px 66px;
+    background-color: #E8F0FE;
+    margin-bottom: 50px;
+  }
+
+
+.GA-fifthmainbox div p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 162.53%;
+    color: #323232;
+    margin-top: 50px;
+}
+
+
+.GA-fifthmainbox img {
+    position: relative;
+    left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* this is the media quary for mobile devices */ 
+
+@media only screen and (max-width: 900px) {
+
+
+    .ghost-air-secondmain {
+        width: 85%;
+        margin: auto;
+        flex-direction: column;
+        margin-bottom: 11px;
+    }
+
+    #GA-secondmain-firstimage {
+        width: 100%;
+    }
+    
+
+    .GA-secondman-1ndchild {
+        width: 100%;
+    }
+
+
+
+
+
+
+
+    .ghost-air-secondmain h1 {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 132.03%;
+        color: #222222;
+        margin-bottom: 30px;
+        margin-top: 30px
+    }
+    
+    .ghost-air-secondmain p {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 132.03%;
+        color: #727171;
+        margin-bottom: 20px;
+    }
+    
+    .GA-comingsoon {
+        margin-bottom: 20px;
+    }
+    
+    
+    .ghost-air-secondmain a {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 132.03%;
+        color: #323232;
+    }
+    
+    .GA-secondman-2ndchild {
+        width: 100%;
+        padding-left: 0px;
+    }
+    
+    .GA-whatandcall {
+        width: 27px;
+        height: 27px;
+        position: relative;
+        top: 6px;
+    }
+    
+    
+    #GA-Phone {
+        margin-left: 70px;
+    }
+
+    .GA-webthreelink-box {
+        display: none;
+    }
+
+
+/* this is the css code for the third box in ghost air */
+
+.GA-thirdmain-box {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 786.15px;
+    margin-bottom: 50px;
+}
+
+.GA-thirdmain-boxchildone {
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 379.15px;
+    background-image: url(img/Group\ 337.png);
+}
+
+
+.GA-thirdmain-boxchildone h2 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 132.03%;
+    margin-top: 105px;
+    margin-bottom: 30px;
+}
+
+
+.GA-thirdmain-boxchildone p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 207.03%;
+}
+
+
+
+
+
+
+.GA-thirdmain-boxchildtwo {
+    width: 100%;
+    height: 379.15px;
+}
+
+.livingroom-image {
+    width: 100%;
+    height: 389px;
+    display: block;
+}
+
+
+/* this is the fourth box for ghost air mobile */
+
+.GA-fourthmainbox {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+.GA-fourthmainbox-child {
+    width: 100%;
+    text-align: center;
+    padding: 45px 25px;
+    border: 1px solid #CECECE;
+    border-radius: 30px;
+    margin-bottom: 62px
+}
+
+.GA-fourthmainbox-child img {
+    width: 44px;
+    height: 44px;
+    margin-bottom: 21px;
+}
+
+
+
+.GA-fourthmainbox-child h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 132.03%;
+    color: #323232;
+    margin-bottom: 8px;
+}
+
+
+.GA-fourthmainbox-child p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 145.53%;
+    color: #727171;
+}
+
+/* this is the fifth main box for ghost air mobile */
+
+.GA-fifthmainbox {
+    width: 100%;
+    flex-direction: column;
+    padding: 0;
+    text-align: center;
+    background-color: #E8F0FE;
+    margin-bottom: 50px;
+  }
+
+
+
+.GA-fifthmainbox div p {
+    font-size: 12px;
+}
+
+
+.GA-fifthmainbox img {
+    width: 314px;
+    height: 281px;
+    position: relative;
+    left: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -973,7 +973,6 @@ span {
     width: 85%;
     margin: auto;
     display: flex;
-    justify-content: space-between;
     margin-bottom: 130px;
 }
 
@@ -995,7 +994,8 @@ span {
 }
 
 .ght-fifthmain-2ndbox {
-    margin-right: 12%;
+    width: 100%;
+    margin-left: 80px;
 }
 
 
@@ -1879,6 +1879,7 @@ span#p-child {
     margin-top: 20px;
     text-align: center;
     margin-right: 0%;
+    margin-left: 0px;
     padding-bottom: 17px
 }
 
