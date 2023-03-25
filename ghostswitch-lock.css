@@ -1,0 +1,196 @@
+.gsl-secondmainbox {
+    width: 85%;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.gsl-2ndmain-2ndchild {
+    margin-top: 9px;
+}
+
+.gsl-2ndmain-2ndchild h1 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 132.03%;
+    color: #222222; 
+    margin-bottom: 15px;
+}
+
+.gsl-2ndmain-2ndchild p {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 132.03%;
+    color: #727171;
+    margin-bottom: 16px;
+}
+
+.gsl-2ndmain-2ndchild a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 132.03%;
+    color: #323232;
+}
+
+.GA-whatandcall {
+    position: relative;
+    top: 6px;
+}
+
+#GA-Phone {
+    margin-left: 70px;
+}
+
+/* this code below is for the third main box for ghostswitch lock */
+
+.gsl-thirdmainbox {
+    width: 85%;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.gsl-thirdmainbox h2 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 132.03%;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.gsl-lockspan {
+    display: inline;
+}
+
+.gsl-thirdmainbox p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 182%;
+    color: #222222;
+}
+
+.gsl-thirdmainbox2ndp {
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* this is the mobile media quary for ghostswitch lock page */
+
+@media only screen and (max-width: 900px) {
+
+    .gsl-secondmainbox {
+        width: 85%;
+        margin: auto;
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    
+    }
+
+    #gsl-2ndmain-mainimage {
+        width: 100%;
+    }
+    
+    .gsl-2ndmain-2ndchild {
+        margin-top: 20px;
+    }
+    
+    .gsl-2ndmain-2ndchild h1 {
+        font-weight: 700;
+        font-size: 30px;
+        margin-bottom: 6px;
+    }
+    
+    .gsl-2ndmain-2ndchild p {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 132.03%;
+        color: #727171;
+        margin-bottom: 16px;
+    }
+    
+    #gsl-2ndmain-2ndchildspan {
+        display: inline;
+    }
+
+    .gsl3link a {
+        color: #000000;
+    }
+
+
+    .gsl3link a:hover {
+        color: #FABB05;
+    }
+
+.gsl-webthreelinks {
+    display: none;
+}
+
+
+
+    /* this is for the third main box for mobile*/
+    .gsl-thirdmainbox {
+        width: 85%;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 70px;
+    }
+    
+    .gsl-thirdmainbox h2 {
+        text-align: center;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 132.03%;
+        color: #000000;
+        margin-bottom: 15px;
+    }
+
+
+    .gsl-lockspan {
+        display: block;
+    }
+    
+    .gsl-thirdmainbox p {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 182%;
+        color: #222222;
+    }
+    
+    .gsl-thirdmainbox2ndp {
+        margin-top: 30px;
+    }
+
+}
