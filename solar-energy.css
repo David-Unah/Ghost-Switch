@@ -1,0 +1,333 @@
+.FA-firstmainbox {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+
+.mobile-watch-review {
+    display: none;
+}
+
+
+.FA-1stmainboxchild2 h1{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 132.03%;
+    color: #222222;
+    margin-bottom: 25px;
+}
+
+.FA-1stmainboxchild2 p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 192%;
+    color: #222222;
+    margin-bottom: 30px;
+}
+
+.FA-mobilep {
+    display: none;
+}
+
+.FA-1stmainboxchild2 a {
+    color: #323232;
+}
+
+a.FA-GAQ {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 132.03%;
+    color: #222222;
+}
+
+#FA-gaq-image {
+    position: relative;
+    top: 5px;
+}
+
+.FA-webthreelinks {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 132.03%;
+    margin-top: 20px;
+}
+
+.GA-whatandcall {
+    position: relative;
+    top: 6px;
+}
+
+#FA-Phone {
+    margin-left: 70px;
+}
+
+.FA-webthreelinks img {
+    position: relative;
+    top: 6px;
+}
+
+
+ /* this is for the third main box for the solar page */
+
+
+.SE-thirdmainbox {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+} 
+
+.SE-1stchild div {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.SE-1stchild div img {
+    margin-bottom: 12px;
+}
+
+
+
+.SE-1stchild div p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160.03%;
+    color: #000000;
+}
+
+
+  /* this is the css code for the fourth mainbox for solar energy page */
+
+.SE-fourthmainbox {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.SE-fourthmainbox div h2 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 160.03%;
+    color: #727171;
+    margin-top: 65px;
+    margin-bottom: 24px;
+}
+
+.SE-fourthmainbox div p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160.03%;
+    color: #222222;
+    margin-bottom: 40px;
+}
+
+.SE-fourthmainbox div a {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 192%;
+    color: #FFFFFF;
+    background-color: #222222;
+    padding: 20px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px)  {
+
+    .FA-firstmainbox {
+        width: 85%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
+    
+
+    .FA-1stmainboxchild1 img {
+        width: 100%;
+    }
+    
+
+    .mobile-watch-review {
+        display: block;
+    }
+
+
+
+
+    .FA-1stmainboxchild2 h1{
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 132.03%;
+        color: #222222;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    
+    .FA-1stmainboxchild2 p {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 192%;
+        color: #222222;
+        margin-bottom: 20px;
+    }
+
+    .FA-1stmainboxchild2 p span {
+        display: inline;
+    }
+
+
+    .FA-mobilep {
+        display: block;
+    }
+
+
+    #FA-webp {
+        display: none;
+    }
+
+    
+    .FA-1stmainboxchild2 a {
+        color: #323232;
+    }
+    
+    a.FA-GAQ {
+        display: none;
+    }
+    
+    #FA-gaq-image {
+        position: relative;
+        top: 5px;
+    }
+    
+    .FA-webthreelinks {
+        display: none;
+    }
+
+    
+    
+     /* this is for the third main box for the solar page */
+    
+    
+    .SE-thirdmainbox {
+        width: 85%;
+        margin: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    
+    } 
+    
+    .SE-1stchild div {
+        text-align: center;
+        margin-top: 35px;
+        margin-bottom: 20px;
+    }
+    
+    .SE-1stchild div img {
+        width: 16px;
+        height: 15.47px;
+        margin-bottom: 4px;
+    }
+    
+    #SE-houseimage {
+        width: 100%;
+    }
+
+
+    
+    .SE-1stchild div p {
+        font-size: 12px;
+    }
+    
+    
+      /* this is the css code for the fourth mainbox for solar energy page */
+    
+    .SE-fourthmainbox {
+        width: 85%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 64px;
+    }
+
+
+    .SE-fourthmainbox div img {
+        width: 100%;
+    }
+    
+    .SE-fourthmainbox div h2 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 160.03%;
+        color: #727171;
+        margin-top: 14px;
+        margin-bottom: 24px;
+    }
+
+
+    .SE-fourthmainbox-child {
+        text-align: center;
+    }
+
+
+    
+    .SE-fourthmainbox div p {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 160.03%;
+        color: #222222;
+        margin-bottom: 31px;
+    }
+    
+    .SE-fourthmainbox div a {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 192%;
+        color: #FFFFFF;
+        background-color: #222222;
+        padding: 10px 12px;
+    }
+
+
+
+
+
+
+
+
+
+}
