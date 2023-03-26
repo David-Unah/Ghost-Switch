@@ -1,0 +1,476 @@
+.FA-firstmainbox {
+    width: 81%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.mobile-watch-review {
+    display: none;
+}
+
+
+.FA-1stmainboxchild2 h1{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 132.03%;
+    color: #222222;
+    margin-bottom: 25px;
+}
+
+.FA-1stmainboxchild2 p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 192%;
+    color: #222222;
+    margin-bottom: 30px;
+}
+
+.FA-1stmainboxchild2 a {
+    color: #323232;
+}
+
+a.FA-GAQ {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 132.03%;
+    color: #222222;
+}
+
+#FA-gaq-image {
+    position: relative;
+    top: 5px;
+}
+
+.FA-webthreelinks {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 132.03%;
+    margin-top: 20px;
+}
+
+.GA-whatandcall {
+    position: relative;
+    top: 6px;
+}
+
+#FA-Phone {
+    margin-left: 70px;
+}
+
+.FA-webthreelinks img {
+    position: relative;
+    top: 6px;
+}
+
+/* .mobilethreelink-box {
+    display: none;
+} */
+
+/* this is the code for the second main box for full automation page */
+
+.FA-secondmainbox {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.FA-secondmainbox div h1 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 160.03%;
+    color: #727171;
+}
+
+
+/* this is for the third main box for full automation page */
+
+.FA-thirdmainbox {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+}
+
+.FA-thirdmainboxchild {
+    text-align: center;
+}
+
+
+#FA-ghosticon, #FA-alexaicon, #FA-GSHomes {
+    font-family: 'Space Grotesk',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 192%;
+    color: #727171;
+}
+
+#FA-ghosticon {
+    margin-top: 15px;
+}
+
+#FA-alexaicon {
+    margin-top: 20px;
+}
+
+.GSH {
+    position: relative;
+    bottom: 21px;
+}
+
+#FA-GSHomes {
+    margin-top: 27px;
+}
+
+/* this is for the fourth main box */
+
+.FA-fourthmainbox {
+    width: 65%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.FA-fourthmainbox p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 192%;
+    color: #727171;
+    margin-bottom: 40px;
+}
+
+#Fa-4thman2ndp {
+    display: none;
+}
+
+.FA-fourthmainbox a {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 192%;
+    color: #FFFFFF;
+    background-color: #222222;
+    padding: 20px 50px;
+}
+
+
+/* this is the fifth main box */
+
+.FA-fifthmainbox {
+    margin-bottom: 70px;
+}
+
+
+ /* this is for the last main box */
+
+ .FA-lastmainbox {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 170px;
+ }
+
+.FA-lastmainbox p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 192%;
+    color: #222222;
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+}
+
+.FA-lastmainbox a {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 192%;
+    color: #FFFFFF;
+    background-color: #222222;
+    padding: 20px 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+    .FA-firstmainbox {
+        width: 85%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
+    
+
+    .FA-1stmainboxchild1 img {
+        width: 100%;
+    }
+    
+
+    .mobile-watch-review {
+        display: block;
+    }
+
+
+
+
+    .FA-1stmainboxchild2 h1{
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 132.03%;
+        color: #222222;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    
+    .FA-1stmainboxchild2 p {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 192%;
+        color: #222222;
+        margin-bottom: 30px;
+    }
+
+    .FA-1stmainboxchild2 p span {
+        display: inline;
+    }
+
+
+
+    
+    .FA-1stmainboxchild2 a {
+        color: #323232;
+    }
+    
+    a.FA-GAQ {
+        display: none;
+    }
+    
+    #FA-gaq-image {
+        position: relative;
+        top: 5px;
+    }
+    
+    .FA-webthreelinks {
+        display: none;
+    }
+
+
+    
+    /* this is the code for the second main box for full automation page */
+    
+    .FA-secondmainbox {
+        width: 85%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 70px;
+    }
+    
+    .FA-secondmainbox div h1 {
+        display: none;
+    }
+
+    .FA-secondmainbox div img {
+        width: 100%;
+    }
+    
+    
+    /* this is for the third main box for full automation page */
+    
+    .FA-thirdmainbox {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    
+    }
+    
+    #FA-ghosticon1 {
+        width: 52px;
+        height: 64.61px;
+    }
+
+    #FA-alexaicon1 {
+        width: 97px;
+        height: 60px;
+    }
+
+
+    #FA-GSHomes {
+        width: 248px;
+        height: 42px;
+    }
+
+    .GSH {
+        position: relative;
+        bottom: 0px;
+    }
+
+
+    .FA-thirdmainboxchild {
+        text-align: -webkit-center;
+    }
+    
+    #FA-ghosticon {
+        margin-top: 7px;
+        margin-bottom: 30px;
+    }
+    
+    #FA-alexaicon {
+        margin-top: 7px;
+        margin-bottom: 30px;
+    }
+    
+    #FA-GSHomes {
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+
+    #FA-ghosticon, #FA-alexaicon, #FA-GSHomes {
+        font-family: 'Space Grotesk',sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 192%;
+        color: #222222;
+    }
+    
+    /* this is for the fourth main box */
+    
+    .FA-fourthmainbox {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    
+    .FA-fourthmainbox p {
+     /*    font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 400; */
+        font-size: 12px;
+        margin-bottom: 27px;
+    }
+
+    #Fa-4thman1stp {
+        display: none;
+    }
+
+
+
+    #Fa-4thman2ndp {
+        display: block;
+    }
+
+    
+    .FA-fourthmainbox a {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 192%;
+        color: #FFFFFF;
+        background-color: #222222;
+        padding: 11px 19px;
+    }
+
+    /* this is for the last main box */
+
+ .FA-lastmainbox {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    margin-bottom: 70px;
+ }
+
+.FA-lastmainboxchild img {
+    width: 100%;
+}
+
+.last2 {
+    text-align: center;
+}
+
+
+
+.FA-lastmainbox p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 192%;
+    color: #222222;
+    margin-top: 10px;
+    margin-bottom: 21px;
+
+}
+
+.FA-lastmainbox a {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 192%;
+    color: #FFFFFF;
+    background-color: #222222;
+    padding: 10px 18px;
+}
+
+
+
+
+
+}
