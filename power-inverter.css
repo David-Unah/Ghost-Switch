@@ -1,0 +1,430 @@
+.FA-firstmainbox {
+    width: 89%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.mobile-watch-review {
+    display: none;
+}
+
+
+.FA-1stmainboxchild2 h1{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 132.03%;
+    color: #222222;
+    margin-bottom: 25px;
+}
+
+.FA-1stmainboxchild2 p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 192%;
+    color: #222222;
+    margin-bottom: 30px;
+}
+
+.FA-mobilep {
+    display: none;
+}
+
+.FA-1stmainboxchild2 a {
+    color: #323232;
+}
+
+a.FA-GAQ {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 132.03%;
+    color: #222222;
+}
+
+#FA-gaq-image {
+    position: relative;
+    top: 5px;
+}
+
+.FA-webthreelinks {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 132.03%;
+    margin-top: 20px;
+}
+
+.GA-whatandcall {
+    position: relative;
+    top: 6px;
+}
+
+#FA-Phone {
+    margin-left: 70px;
+}
+
+.FA-webthreelinks img {
+    position: relative;
+    top: 6px;
+}
+
+
+  /* this is for the why inverter box */
+
+.pi-whyinverter h1{
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 160.03%;
+    color: #727171;
+    margin-bottom: 70px;
+}
+
+/* this is for the third main box */
+
+.pi-thirdmainbox {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.pi-thirdmainbox img {
+    margin-bottom: 70px;
+} 
+
+.pi-thirdmainbox h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160.03%;
+    color: #727171;
+    margin-bottom: 40px;
+}
+
+.pi-thirdmainbox p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160.03%;
+    color: #222222;
+}
+
+/* this is for the fourth main box for power inverter page took code from cctv style */
+
+.cctv-fifthmainbox {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.cctv-fifthmainbox div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.cctv-fifthmainbox div img {
+    width: 32px;
+    height: 28.66px;
+}
+
+ 
+.cctv-fifthmainbox div p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160.03%;
+    margin-left: 24px;
+}
+
+ /* this is the last main box for power inverter page */
+
+ .pi-lastmainbox {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 130px;
+ }
+
+ .pi-lastmainbox div h2 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 160.03%;
+    color: #727171;
+    margin-top: 40px;
+    margin-bottom: 40px;
+ }
+
+ .pi-lastmainbox div p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160.03%;
+    color: #222222;
+    margin-bottom: 50px;
+ }
+
+ .pi-lastmainbox div a {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 192%;
+    color: #FFFFFF;
+    padding: 20px 30px;
+    background-color: #222222;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media only screen and (max-width: 900px)  {
+
+    .FA-firstmainbox {
+        width: 85%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
+    
+
+    .FA-1stmainboxchild1 img {
+        width: 100%;
+    }
+    
+
+    .mobile-watch-review {
+        display: block;
+    }
+
+
+
+
+    .FA-1stmainboxchild2 h1{
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 132.03%;
+        color: #222222;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    
+    .FA-1stmainboxchild2 p {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 192%;
+        color: #222222;
+        margin-bottom: 15px;
+    }
+
+    .FA-1stmainboxchild2 p span {
+        display: inline;
+    }
+
+
+    .FA-mobilep {
+        display: block;
+    }
+
+
+    #FA-webp {
+        display: none;
+    }
+
+    
+    .FA-1stmainboxchild2 a {
+        color: #323232;
+    }
+    
+    a.FA-GAQ {
+        display: none;
+    }
+    
+    #FA-gaq-image {
+        position: relative;
+        top: 5px;
+    }
+    
+    .FA-webthreelinks {
+        display: none;
+    }
+
+
+    .mobilethreelink-box {
+        margin-top: 23px;
+    }
+
+
+ /* this is for the why inverter box */
+
+ .pi-whyinverter h1{
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160.03%;
+    color: #727171;
+    margin-bottom: 31px;
+}
+
+    /* this is for the third main box */
+
+
+    .pi-thirdmainbox {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    .pi-thirdmainboxchild {
+        margin-bottom: 52px;
+    }
+
+
+
+    
+    .pi-thirdmainbox img {
+        width: 84px;
+        height: 84px;
+        margin-bottom: 29px;
+    } 
+    
+    .pi-thirdmainbox h3 {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 160.03%;
+        color: #727171;
+        margin-bottom: 10px;
+    }
+    
+    .pi-thirdmainbox p {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 160.03%;
+        color: #222222;
+    }
+
+
+
+/* this is for the fourth main box taken from cctv css*/
+
+.cctv-fifthmainbox {
+    width: 83%;
+    margin: auto;
+    margin-bottom: 71px;
+}
+
+.cctv-fifthmainbox div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 22px;
+}
+
+.cctv-fifthmainbox div img {
+    width: 25px;
+    height: 24.17px;
+    margin-bottom: 20px;
+}
+ 
+.cctv-fifthmainbox div p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 160.03%;
+    margin-left: 0px;
+}
+
+
+
+ /* this is the last main box for power inverter page */
+
+ .pi-lastmainbox {
+    width: 87%;
+    margin: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    margin-bottom: 60px;
+ }
+
+.pi-lastmainbox img {
+    width: 100%;
+}
+
+.pi-lastmainbox div {
+    text-align: center;
+}
+
+
+ .pi-lastmainbox div h2 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160.03%;
+    color: #727171;
+    margin-top: 40px;
+    margin-bottom: 21px;
+ }
+
+ .pi-lastmainbox div p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160.03%;
+    color: #222222;
+    margin-bottom: 36px;
+ }
+
+ .pi-lastmainbox div a {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 192%;
+    color: #FFFFFF;
+    padding: 11px 18px;
+    background-color: #222222;
+ }
+
+
+
+
+
+
+
+
+ }
+
+
