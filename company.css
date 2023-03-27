@@ -1,0 +1,219 @@
+.company-icon {
+    width: 90%;
+    margin: auto;
+    margin-top: 78px;
+    margin-bottom: 41px;
+}
+
+/* this is the first main box for the company page */
+
+.company-firstmainbox {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 65px;
+}
+
+.company-firstmainbox h1 {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 132.03%;
+    letter-spacing: 0.115em;
+    color: #222222;
+}
+
+#hive {
+    display: inline;
+    color: #FABB05;
+}
+
+.company-firstmainbox p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140.53%;
+    color: #727171;
+    margin-top: 30px;
+
+}
+
+/* this is the second box for company page */
+
+.company-secondmainbox, .companyinfo{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.company-secondmainbox div h2, .companyinfo div h2 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 132.03%;
+    color: #000000;
+}
+
+.company-secondmainbox div p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 169.53%;
+}
+
+
+/* this is for the third main box */
+
+.company-thirdmainbox {
+    width: 100%;
+    background-color: #222222;
+    color: #fff;
+    padding: 120px 100px;
+}
+
+.company-thirdmainbox div h2 {
+    color: #fff;
+}
+
+.company-thirdmainbox div p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 169.53%;
+}
+
+/* this is for the fourth main box */
+
+.company-fourthmainbox {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 90px;
+}
+
+.company-fourthmainbox h2 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 132.03%;
+    color: #000000;
+}
+
+
+.com-4thchildinner {
+    text-align: center;
+}
+
+.com-4thchildinner h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 169.53%;
+    color: #222222;
+
+}
+
+.com-4thchildinner p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 169.53%;
+    color: #727171;
+}
+
+
+.img-div {
+    background-color: #FFCE31;
+    padding: 30px 50px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+
+.com-4thmainchild {
+    width: 46%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* this is for the fifth main box */
+
+
+.company-5thmainbox {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFCE31;
+    padding: 80px 100px;
+}
+
+.company-5thmainbox  div h2 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 132.03%;
+    color: #000000;
+}
+
+.com-5thmainboxchild {
+    width: 46%;
+}
+
+.company-5thmainbox div p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 169.53%;
+    color: #222222;
+
+}
+
+
+/* this is for the last main box */
+
+.company-lastmainbox {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 85px;
+    margin-bottom: 120px;
+}
+
+.company-lastmainbox h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 132.03%;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.company-lastmainbox p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140.53%;
+    color: #323232;
+    margin-bottom: 70px;
+}
+
+.company-lastmainbox a {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 132.03%;
+    color: #FFFFFF;
+    background-color: #222222;
+    padding: 20px 50px;
+}
