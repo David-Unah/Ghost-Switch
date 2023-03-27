@@ -58,6 +58,11 @@
     color: #000000;
 }
 
+#company-mobilep {
+    display: none;
+}
+
+
 .company-secondmainbox div p {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -79,6 +84,13 @@
 .company-thirdmainbox div h2 {
     color: #fff;
 }
+
+
+#com-believemobilep {
+    display: none;
+}
+
+
 
 .company-thirdmainbox div p {
     font-family: 'Poppins', sans-serif;
@@ -109,6 +121,19 @@
 .com-4thchildinner {
     text-align: center;
 }
+
+
+.com-4thchildinner img {
+    width: 141px;
+    height: 170px;
+}
+
+
+#charles {
+    width: 143px;
+}
+
+
 
 .com-4thchildinner h3 {
     font-family: 'Poppins', sans-serif;
@@ -216,4 +241,306 @@
     color: #FFFFFF;
     background-color: #222222;
     padding: 20px 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px)  {
+
+
+    .company-icon {
+        width: 90%;
+        margin: auto;
+        margin-top: 32px;
+        margin-bottom: 0px;
+    }
+    
+
+    #companyicon {
+        width: 74px;
+        height: 30px;
+    }
+
+
+
+
+    /* this is the first main box for the company page */
+    
+    .company-firstmainbox {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 16px;
+        margin-bottom: 102px;
+    }
+    
+    .company-firstmainbox h1 {
+        font-size: 30px;
+        letter-spacing: 0em;
+    }
+    
+    .company-firstmainbox p {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 140.53%;
+        color: #727171;
+        margin-top: 30px;
+    
+    }
+
+
+/* this is the second box for company page */
+
+.company-secondmainbox, .companyinfo{
+    width: 88%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 56px;
+    margin-bottom: 56px;
+}
+
+.company-secondmainbox div h2, .companyinfo div h2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 132.03%;
+    color: #000000;
+}
+
+#company-mobilep {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 169.53%;
+    margin-top: 24px;
+}
+
+
+#company-mobilep p {
+    margin-bottom: 24px;
+}
+
+
+.company-secondmainbox div p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 169.53%;
+}
+
+#company-webp {
+    display: none;
+}
+
+/* this is for the third main box */
+
+.company-thirdmainbox {
+    width: 100%;
+    background-color: #222222;
+    color: #fff;
+    padding: 66px 20px;
+}
+
+.company-thirdmainbox div h2 {
+    color: #fff;
+}
+
+#com-believemobilep {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 169.53%;
+    margin-top: 20px;
+}
+
+
+#com-believewebp {
+    display: none;
+}
+
+
+/* this is for the fourth main box */
+
+.company-fourthmainbox {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.company-fourthmainbox h2 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 132.03%;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 21px;
+}
+
+
+.com-4thchildinner {
+    text-align: center;
+    
+}
+
+.com-4thchildinner img {
+    width: 141px;
+    height: 156px;
+}
+
+
+#charles {
+    width: 118px;
+}
+
+
+.com-4thchildinner h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 169.53%;
+    color: #222222;
+
+}
+
+.com-4thchildinner p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 169.53%;
+    color: #727171;
+    margin-bottom: 20px;
+}
+
+
+.img-div {
+    background-color: #FFCE31;
+    padding: 30px 50px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+
+.com-4thmainchild {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+/* this is for the fifth main box */
+
+
+.company-5thmainbox {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #FFCE31;
+    padding: 42px 19px;
+}
+
+.company-5thmainbox  div h2 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 132.03%;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 23px;
+
+}
+
+.com-5thmainboxchild {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    margin: auto;
+}
+
+.company-5thmainbox div p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 169.53%;
+    color: #222222;
+
+}
+
+
+/* this is for the last main box */
+
+.company-lastmainbox {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    margin-top: 85px;
+    margin-bottom: 92px;
+}
+
+.company-lastmainbox div img {
+    width: 100%;
+}
+
+.company-lastmainbox h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 132.03%;
+    color: #000000;
+    margin-top: 21px;
+    margin-bottom: 15px;
+}
+
+.company-lastmainbox p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140.53%;
+    color: #323232;
+    margin-bottom: 38px;
+}
+
+.company-lastmainbox a {
+    font-size: 12px;
+    padding: 22px 38px;
+}
+
+
+
+
+
+
+
 }

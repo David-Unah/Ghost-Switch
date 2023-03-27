@@ -1209,7 +1209,9 @@ footer {
         width: 122px;
         height: 34px;
         font-size: 10px;
-        padding-top: 8px;
+        padding-top: 0px;
+        border: none;
+        margin-left: 11px;
     }
 
     #phone-design {
