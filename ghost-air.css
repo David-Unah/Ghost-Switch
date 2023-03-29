@@ -23,8 +23,38 @@
 }
 
 .GA-comingsoon {
+    width: 438px;
+    height: 42px;
     margin-bottom: 20px;
+    background-color: #4285F4;
+    margin-bottom: 20px;
+    overflow: hidden;
 }
+
+#comingsoon{
+    width: 195%;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    line-height: 132.03%;
+    padding-top: 14px;
+    overflow: hidden;
+    animation: moveSlideshow 43s linear infinite;
+    
+}
+
+
+        /* this is the css animation for the coming soon */
+        @keyframes moveSlideshow {
+            0% { transform: translateX(1%);}
+            100% { 
+              transform: translateX(-66.6666%);  
+            }
+          }
+    
+
 
 
 .ghost-air-secondmain a {
@@ -240,9 +270,42 @@
         margin-bottom: 20px;
     }
     
-    .GA-comingsoon {
-        margin-bottom: 20px;
-    }
+        /* this is the coming soon scroll for mobile view */
+        .GA-comingsoon {
+            width: 119%;
+            height: 42px;
+            margin-bottom: 20px;
+            background-color: #4285F4;
+            margin-bottom: 20px;
+            overflow: hidden;
+            position: relative;
+            right: 32px;
+        }
+        
+        #comingsoon{
+            width: 195%;
+            font-family: 'Poppins', sans-serif;
+            font-style: italic;
+            font-weight: 500;
+            font-size: 12px;
+            color: #fff;
+            line-height: 132.03%;
+            padding-top: 14px;
+            overflow: hidden;
+            animation: moveSlideshow 43s linear infinite;
+            
+        }
+        
+        
+                /* this is the css animation for the coming soon */
+                @keyframes moveSlideshow {
+                    0% { transform: translateX(1%);}
+                    100% { 
+                      transform: translateX(-66.6666%);  
+                    }
+                  }
+            
+
     
     
     .ghost-air-secondmain a {
