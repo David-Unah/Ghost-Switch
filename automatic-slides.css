@@ -5,16 +5,25 @@
     scroll-behavior: smooth;
     }
 
+.mySlides {
+    display: none; 
+}
+
+
+
+
+span {
+    display: block;
+}
 
 .firstslide {
     position: relative;
     width: 100%;
-    height: auto;
+    height: 453px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url(img/Rectangle\ 55\ \(3\).png);
-    background-repeat: no-repeat;
+    background: linear-gradient(108.49deg, #4285F4 37.47%, #F1AAAF 74.12%);
     padding: 49px 211px;
 }
 
@@ -22,7 +31,7 @@
     display: flex;
 }
 
-#ghosticonslide {
+.ghosticonslide {
     position: relative;
     top: 11px;
     margin-right: 7px;
@@ -41,7 +50,7 @@
 
 .firstslide a {
     display: block;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -53,10 +62,381 @@
 }
 
 
+  /* this is for the second slide */
+
+  .second-slide {
+    width: 100%;
+    height: 453px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 49px  151px;
+    background: linear-gradient(108.49deg, #F1AAAF 37.47%, #FDF49D 74.12%);
+  }
+
+  .second-slidechild2 {
+    display: flex;
+  }
+
+.second-slidechild2 h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 132.03%;
+    color: #4D4D4D;
+    margin-bottom: 30px;
+}
+
+.second-slidechild2 a {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 132.03%;
+    text-decoration-line: underline;
+    color: #222222;
+}
+
+.second-slidechild2  a:hover {
+    color: #4285F4;
+}
+
+.secondslidechild4 {
+    display: none;
+}
+
+
+.buy-nowonslide {
+    margin-left: 69px;
+}
+
+#bulbicon-slide {
+    position: relative;
+    bottom: 15px;
+    left: 20px;
+}
+
+
+    /* this is for the third slide */
+    
+.thirdslidebox {
+    width: 100%;
+    height: 453px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 49px 253px;
+    background: linear-gradient(108.49deg, #99BDF9 37.47%, #D9D9D9 74.12%);;
+}
+
+.thirdslideboxchild {
+    display: flex;
+}
+
+
+#ghostslide  {
+    display: none;
+}
+
+.thirdslideboxchild h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 132.03%;
+    color: #4D4D4D;
+    margin-bottom: 43px
+
+}
+
+
+.thirdslideboxchild a {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 132.03%;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    margin-top: 24px;
+    position: relative;
+    left: 10px;
+}
+
+#rectangle3 {
+    display: none;
+}
+
+
+        /* this is the fourth slide */
+
+  .fourthslide {
+    display: flex;
+    height: 453px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 49px 133px;
+    background: linear-gradient(108.49deg, rgba(52, 168, 83, 0.42) 37.47%, rgba(66, 133, 244, 0.53) 74.12%);
+  }      
+
+.fourthslidechild1  {
+    text-align: center;
+}
+
+
+
+.fourthslide h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 132.03%;
+    color: #222222;
+    margin-bottom: 17px;
+}
+
+
+.fourthslide p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 132.03%;
+    color: #5F5F5F;
+    text-align: center;
+    margin-bottom: 19px;
+}
+
+
+.fourthslide a {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 132.03%;
+    color: #4285F4;
+}
+
+
+.fourslidemobilep {
+    display: none;
+}
+
+        /* this is for the fifth slide */
+
+.fifthslide {
+    display: flex;
+    height: 453px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 101px 160px;
+    background: linear-gradient(108.49deg, rgba(87, 235, 222, 0.42) 37.47%, rgba(174, 251, 42, 0.23) 74.12%);
+}
+
+.fifthslidechild2 {
+    text-align: center;
+}
+
+
+.fifthslide h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 132.03%;
+    color: #222222;
+    margin-bottom: 14px;
+}
+
+
+.fifthslide p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 132.03%;
+    color: #5F5F5F;
+    margin-bottom: 22px;
+}
+
+.fifthslide a {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 132.03%;
+    color: #4285F4;
+}
+
+
+.fifthslidemobilep {
+    display: none;
+}
+
+
+.dont-showimages {
+    display: none;
+}
+
+
+        /* this is for the sixth slide */
+
+.sixthslide {
+    display: flex;
+    height: 453px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 113px 112px;
+    background: linear-gradient(108.49deg, rgba(241, 225, 194, 0.42) 37.47%, rgba(252, 188, 152, 0.53) 74.12%);
+}
+
+.sixthslidechild2 {
+    text-align: center;
+}
+
+
+
+
+.sixthslide h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    line-height: 132.03%;
+    color: #222222;
+    margin-bottom: 14px;
+}
+
+
+.sixthslide p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 132.03%;
+    color: #5F5F5F;
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.sixthslide a {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 132.03%;
+    text-align: center;
+    color: #4285F4;
+}
+    
+   
+
+    /* this is for the seventhslide */
+
+
+.seventhslide {
+    display: flex;
+    height: 453px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 120px 112px;
+    background: linear-gradient(108.49deg, rgba(35, 158, 171, 0.42) 37.47%, rgba(116, 222, 238, 0.53) 74.12%);
+}
+
+.seventhslidechild2 {
+    text-align: center;
+}
+
+
+
+
+.seventhslide h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    line-height: 132.03%;
+    color: #222222;
+    margin-bottom: 14px;
+}
+
+
+.seventhslide p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 132.03%;
+    color: #5F5F5F;
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.seventhslide a {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 132.03%;
+    text-align: center;
+    color: #4285F4;
+}
+
+
+
+.active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .next, .prev {
         cursor: pointer;
         position: absolute;
-        top: 30%;
+        top: 50%;
         width: auto;
         margin-top: -22px;
         padding: 16px;
@@ -71,4 +451,587 @@
 
 .next {
     right: 0;
+}
+
+
+.dot {
+    position: relative;
+    bottom: 3px;
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .span-dot {
+    text-align: center; 
+    position: relative;
+    bottom: 56px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+
+
+    .firstslide {
+        position: relative;
+        width: 100%;
+        height: 468px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px 0px;
+    }
+    
+
+    .firstslidechild {
+        display: flex;
+    }
+    
+    #smartlock {
+        width: 100%;
+        height: 257px;
+        margin: 41px 0px 31px 0px;
+    }   
+
+
+
+
+    .ghosticonslide {
+        display: none;
+    }
+    
+    
+    .firstslide h1 {
+        display: inline;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 132.03%;
+        color: #4D4D4D;
+    }
+    
+    .firstslide a {
+        display: block;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 132.03%;
+        text-decoration-line: underline;
+        color: #FFFFFF;
+        text-align: center;
+        margin-top: 21px;
+        
+    }
+    
+    
+    .next, .prev {
+        display: none;
+            cursor: pointer;
+            position: absolute;
+            top: 30%;
+            width: auto;
+            margin-top: -22px;
+            padding: 16px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            user-select: none;
+          
+    }
+    
+    
+    .next {
+        right: 0;
+    }
+
+
+    .dot {
+        position: relative;
+        bottom: 3px;
+        cursor: pointer;
+        height: 10px;
+        width: 10px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+
+
+
+    .span-dot {
+        text-align: center; 
+        position: relative;
+        bottom: 37px;
+      }  
+
+
+/* this is for the second slide */
+
+.second-slide {
+    width: 100%;
+    height: 468px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px  0px;
+    background: linear-gradient(108.49deg, #F1AAAF 37.47%, #FDF49D 74.12%);
+  }
+
+
+.secondslidechild1, .secondslidechild3, .ghosticonslide {
+    display: none;
+}
+
+.secondslidechild4 {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 54px;
+}
+
+
+
+
+  .second-slidechild2 {
+    display: flex;
+  }
+
+.second-slidechild2 h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 132.03%;
+    color: #4D4D4D;
+    text-align: center;
+    margin-top: 41px;
+    margin-bottom: 14px;
+}
+
+.second-slidechild2 a {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 132.03%;
+    text-decoration-line: underline;
+    color: #222222;
+}
+
+.second-slidechild2  a:hover {
+    color: #4285F4;
+}
+
+
+.buy-nowonslide {
+    margin-left: 27px;
+}
+
+#bulbicon-slide {
+    position: relative;
+    bottom: 15px;
+    left: 20px;
+}
+
+
+/* this is for the third slide */
+    
+.thirdslidebox {
+    width: 100%;
+    height: 468px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 105px 0px;
+    background: linear-gradient(108.49deg, #99BDF9 37.47%, #D9D9D9 74.12%);;
+}
+
+.thirdslideboxchild {
+    display: flex;
+    margin-bottom: 64px;
+}
+
+
+#ghostslide  {
+    display: block;
+    position: relative;
+    top: 0px;
+    margin-right: 7px;
+}
+
+
+.thirdslideboxchild h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 132.03%;
+    color: #4D4D4D;
+    margin-bottom: 0px
+
+}
+
+
+.thirdslideboxchild a {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 132.03%;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    margin-top: 24px;
+    position: relative;
+    top: 11px;
+    left: 6px;
+}
+
+
+#rectangle3 {
+    display: block;
+}
+
+#rectangle2 {
+    display: none;
+}
+    /* this  is for the fourth slide */
+
+.fourthslide {
+    display: flex;
+    height: 468px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px;
+    background: linear-gradient(108.49deg, rgba(52, 168, 83, 0.42) 37.47%, rgba(66, 133, 244, 0.53) 74.12%);
+  }      
+
+.fourthslidechild1  {
+    text-align: center;
+}
+
+
+
+.fourthslide h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 132.03%;
+    color: #222222;
+    margin-top: 39px;
+    margin-bottom: 17px;
+}
+
+
+.fourthslide p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 132.03%;
+    color: #5F5F5F;
+    text-align: center;
+    margin-bottom: 19px;
+}
+
+.fourslidemobilep {
+    display: block;
+}
+
+.fourthslidewebp {
+    display: none;
+}
+
+
+
+.fourthslide a {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 132.03%;
+    color: #4285F4;
+}
+
+#fourthslide-image {
+    width: 219.41px;
+    height: 148.2px;
+    margin-top: 43px;
+    margin-bottom: 69px;
+}
+
+
+      /* this is for the fifth slide */
+
+      .fifthslide {
+        display: flex;
+        height: 468px;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 0px;
+        background: linear-gradient(108.49deg, rgba(87, 235, 222, 0.42) 37.47%, rgba(174, 251, 42, 0.23) 74.12%);
+    }
+    
+    .fifthslidechild2 {
+        text-align: center;
+    }
+    
+    
+    .fifthslide h1 {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 132.03%;
+        color: #222222;
+        margin-top: 33px;
+        margin-bottom: 14px;
+    }
+    
+    
+    .fifthslide p {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 132.03%;
+        color: #5F5F5F;
+        margin-bottom: 22px;
+    }
+
+    .fifthslidemobilep {
+        display: block;
+    }
+
+    .fifthslidewebp {
+        display: none;
+    }
+
+
+    
+    .fifthslide a {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 132.03%;
+        color: #4285F4;
+    }
+    
+
+    .fifthslidechild1 {
+        text-align: center;
+        margin-top: 36px;
+        margin-bottom: 47px;
+    }
+
+.dont-showimages {
+    display: block;
+    margin-top: 27px;
+}
+
+
+.show-image {
+    display: none;
+}
+
+#alexa-fifthchild {
+    margin-left: 62px;
+}
+
+
+        /* this is for the sixthslide */
+
+        
+        
+        .sixthslide {
+            display: flex;
+            height: 468px;
+            flex-direction: column-reverse;
+            justify-content: space-around;
+            align-items: center;
+            padding: 0px 0px;
+            background: linear-gradient(108.49deg, rgba(241, 225, 194, 0.42) 37.47%, rgba(252, 188, 152, 0.53) 74.12%);
+        }
+        
+        .sixthslidechild2 {
+            text-align: center;
+        }
+        
+        
+        
+        
+        .sixthslide h1 {
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            text-align: center;
+            line-height: 132.03%;
+            color: #222222;
+            margin-top: 33px;
+            margin-bottom: 14px;
+        }
+        
+        
+        .sixthslide p {
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 132.03%;
+            color: #5F5F5F;
+            text-align: center;
+            margin-bottom: 22px;
+        }
+        
+        .sixthslide a {
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 132.03%;
+            text-align: center;
+            color: #4285F4;
+        }
+        
+#sixthslide-image {
+    width: 207px;
+    height: 117px;
+    margin-top: 65px;
+    margin-bottom: 62px;
+}
+
+
+  /* this is for the sixthslide */
+
+        
+        
+  .seventhslide {
+    display: flex;
+    height: 468px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 0px;
+    background: linear-gradient(108.49deg, rgba(35, 158, 171, 0.42) 37.47%, rgba(116, 222, 238, 0.53) 74.12%);
+}
+
+.seventhslidechild2 {
+    text-align: center;
+}
+
+
+
+
+.seventhslide h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    line-height: 132.03%;
+    color: #222222;
+    margin-top: 33px;
+    margin-bottom: 14px;
+}
+
+
+.seventhslide p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 132.03%;
+    color: #5F5F5F;
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.seventhslide a {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 132.03%;
+    text-align: center;
+    color: #4285F4;
+}
+
+#seventhslide-image {
+width: 207px;
+height: 117px;
+margin-top: 51px;
+margin-bottom: 62px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
