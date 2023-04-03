@@ -553,17 +553,32 @@ span {
     text-align: center;
 }
 
+
+.main-slidebox {
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    overflow-scrolling: touch;
+}
+
+
+
+
 .testimonals-container {
+    width: 100%;
     position: relative;
     display: flex;
-    display: none;
     justify-content: space-around;
-    width: 100%;
+    
     /* border: 1px solid black; */
     margin-top: 50px;
     margin-bottom: 70px;
 }
 
+
+.each-testimony {
+    display: none;
+}
 
 
 .personal-testinony {   
@@ -573,7 +588,6 @@ span {
     background: #FFFFFF;
     border: 1px solid #E2DFDF;
     box-shadow: 0px 14px 9px -9px #F3F3F3;
-        /* border: 1px solid black; */
 }
 
 .testimony-p {
@@ -600,17 +614,31 @@ span {
 
 }
 
+   /* Fading animation */
+.test-slides {
+    animation-name: slides;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes slides {
+    0% {
+      transform: translateX(300px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
+
 .the-arrows {
     width: 85%;
     margin: auto;
     display: flex;
-    display: none;
+    /* display: block; */
     justify-content: space-between;
     align-items: center;
-    border: 1px solid black;
 }
 
-#dots {
+#dots-box {
     width: 79px;
     position: relative;
     left: 58px;
@@ -1484,6 +1512,103 @@ footer {
     margin-top: 100px;
     margin-bottom: 30px;
 }
+
+/* this is for the testimony slides */
+
+.testimonals-container {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    
+    /* border: 1px solid black; */
+    margin-top: 50px;
+    margin-bottom: 7px;
+}
+
+
+.each-testimony {
+    display: none;
+}
+
+
+.personal-testinony {   
+    width: 85%;
+    height: auto;
+    margin: auto;
+    padding: 21px;
+    background: #FFFFFF;
+    border: 1px solid #E2DFDF;
+    box-shadow: 0px 14px 9px -9px #F3F3F3;
+}
+
+.testimony-p {
+    /* width: 498px; */
+    /* height: 208px; */
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    /* width: 88%; */
+    text-align: center;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 188.03%;
+    color: #323232;
+    margin-bottom: 20px;
+}
+
+
+.testimony-name {
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 188.03%;
+    color: #BD000D;
+
+}
+
+   /* Fading animation */
+.test-slides {
+    animation-name: slides;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes slides {
+    0% {
+      transform: translateX(300px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
+
+.the-arrows {
+    width: 85%;
+    margin: auto;
+    display: normal;
+    /* display: block; */
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+#left-and-right {
+    display: none;
+}
+
+#dots-box {
+    width: 40px;
+    position: relative;
+    left: -25px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dot-image {
+    width: 8px;
+    height: 8px;
+}
+
 
 /* this is the frequently asked questions on mobile view */
 
