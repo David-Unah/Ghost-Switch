@@ -19,10 +19,12 @@
 
 <body>
     <div id="myOverlay" class="overlay">
-        <div style="text-align: right">
+
+        <div style="text-align: right; margin-top: 40px;">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="img/cross.png" alt="cross"></a>
         </div>
-        <div class="overlay-content">
+
+        <div class="overlay-content ">
             <a href="automatic-slides.html">Home</a> <!-- i selected this link to take me to slides temporarily -->
 
 
@@ -45,13 +47,11 @@
 
 
 
-
-
-            </a>
             <a href="#ourservices">Services</a>
             <a href="company.html">Company</a>
             <a href="#call-us">Contact</a>
         </div>
+
     </div>
     <nav>
         <a href="#"><img src="img/Group 47 (1).png" alt="Ghostswitch icons" width="168" height="55" id="main-icon"></a>
@@ -211,68 +211,60 @@
         </div>
         <div id="smatlock"><img src="img/Group 99.png" alt="smartlock" style="width: 100%;"></div>
         <h2 class="testimonals">Testimonals</h2>
-        <!-- <div class="maintestimonycontainer"> -->
-        <div class="testimonals-container">
-            <div class="each-testimony test-slides">
-                <div class="personal-testinony"> <!-- each persons testimony -->
-                    <p class="testimony-p">"I work long hours, and it's so nice to be able to control my home
-                        from afar with Ghost Switch. I can turn on the lights
-                        before I get home, adjust the temperature, and even check on my pets
-                        with the security cameras. It's given me peace of mind knowing
-                        that everything is under control even when I'm not there.
-                        Ghost Switch has definitely made my life easier and
-                        more convenient, and I would recommend it to anyone looking for a
-                        smart home solution."</p>
+        <div class="maintestimonycontainer">
+            <div class="testimonals-container">
+                <div class="each-testimony test-slides">
+                    <div class="personal-testinony"> <!-- each persons testimony -->
+                        <p class="testimony-p">"I work long hours, and it's so nice to be able to control my home
+                            from afar with Ghost Switch. I can turn on the lights
+                            before I get home, adjust the temperature, and even check on my pets
+                            with the security cameras. It's given me peace of mind knowing
+                            that everything is under control even when I'm not there.
+                            Ghost Switch has definitely made my life easier and
+                            more convenient, and I would recommend it to anyone looking for a
+                            smart home solution."</p>
 
-                    <p class="testimony-name">Kemi</p>
+                        <p class="testimony-name">Kemi</p>
+                    </div>
                 </div>
-            </div>
-            <div class="each-testimony test-slides">
-                <div class="personal-testinony"> <!-- each persons testimony -->
-                    <p class="testimony-p">"I work long hours, and it's so nice to be able to control my home
-                        from afar with Ghost Switch. I can turn on the lights
-                        before I get home, adjust the temperature, and even check on my pets
-                        with the security cameras. It's given me peace of mind knowing
-                        that everything is under control even when I'm not there.
-                        Ghost Switch has definitely made my life easier and
-                        more convenient, and I would recommend it to anyone looking for a
-                        smart home solution."</p>
-                    <p class="testimony-name">Bola</p>
+                <div class="each-testimony test-slides">
+                    <div class="personal-testinony"> <!-- each persons testimony -->
+                        <p class="testimony-p">"I work long hours, and it's so nice to be able to control my home
+                            from afar with Ghost Switch. I can turn on the lights
+                            before I get home, adjust the temperature, and even check on my pets
+                            with the security cameras. It's given me peace of mind knowing
+                            that everything is under control even when I'm not there.
+                            Ghost Switch has definitely made my life easier and
+                            more convenient, and I would recommend it to anyone looking for a
+                            smart home solution."</p>
+                        <p class="testimony-name">Bola</p>
+                    </div>
                 </div>
-            </div>
-            <div class="each-testimony test-slides">
-                <div class="personal-testinony"> <!-- each persons testimony -->
-                    <p class="testimony-p">"I work long hours, and it's so nice to be able to control my home
-                        from afar with Ghost Switch. I can turn on the lights
-                        before I get home, adjust the temperature, and even check on my pets
-                        with the security cameras. It's given me peace of mind knowing
-                        that everything is under control even when I'm not there.
-                        Ghost Switch has definitely made my life easier and
-                        more convenient, and I would recommend it to anyone looking for a
-                        smart home solution."</p>
-                    <p class="testimony-name">Chike</p>
+                <div class="each-testimony test-slides">
+                    <div class="personal-testinony"> <!-- each persons testimony -->
+                        <p class="testimony-p">"I work long hours, and it's so nice to be able to control my home
+                            from afar with Ghost Switch. I can turn on the lights
+                            before I get home, adjust the temperature, and even check on my pets
+                            with the security cameras. It's given me peace of mind knowing
+                            that everything is under control even when I'm not there.
+                            Ghost Switch has definitely made my life easier and
+                            more convenient, and I would recommend it to anyone looking for a
+                            smart home solution."</p>
+                        <p class="testimony-name">Chike</p>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- </div> -->
         <div class="the-arrows"> <!-- this should be displayyed flex -->
             <div style="visibility: hidden;">empty</div> <!-- this div shoudld be made invisible -->
             <div id="dots-box">
-                <a href="#" class="color-dots" onclick="currentSlide(1)"><img src="img/Ellipse 16.png" class="dot-image"
-                        alt="gray dot"></a>
-                <a href="#" class="color-dots redcolor-dots"><img src="img/Ellipse 15.png"  alt="red dot"></a>
-                <a href="#" class="color-dots" onclick="currentSlide(2)"><img src="img/Ellipse 16.png" class="dot-image"
-                        alt="gray dot"></a>
-                <a href="#" class="color-dots redcolor-dots"><img src="img/Ellipse 15.png" alt="red dot"></a>
-                <a href="#" class="color-dots" onclick="currentSlide(3)"><img src="img/Ellipse 16.png" class="dot-image"
-                        alt="gray dot"></a>
-                <a href="#" class="color-dots redcolor-dots"><img src="img/Ellipse 15.png" alt="red dot"></a>
+                <span class="color-dots" onclick="currentSlide(1)"></span>
+                <span class="color-dots" onclick="currentSlide(2)"></span>
+                <span class="color-dots" onclick="currentSlide(3)"></span>
             </div>
             <div id="left-and-right">
-                <a onclick="plusSlides(-1)"><img src="img/Group 146.png" alt="left arrow"
-                        style="display:inline-block"></a>
-                <a onclick="plusSlides(1)"><img src="img/Group 145.png" alt="right arrow"
-                        style="display:inline-block"></a>
+                <a onclick="plusSlides(-1)" class="left-arrow"></a>
+                <a onclick="plusSlides(1)" class="right-arrow"></a>
             </div>
         </div>
         <h2 class="faq">FAQ</h2>

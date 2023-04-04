@@ -9,7 +9,7 @@
 
 
 body {
-    padding-top: 12px;
+    padding-top: 0px;
     font-family: 'Space Grotesk',  sans-serif;
 }
 
@@ -24,74 +24,6 @@ button {
     border: none;
     background: none
 }
- /*    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(to bottom, #BB000D, #1E1E1E);
-    z-index: 1;
-    position: fixed;
-    padding: 0px 20px;
-    margin-top: -12px;
-} */
-
-.overlay a {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 132.03%;
-    color: #fff;
-    display: block;
-    margin-bottom: 30px;
-}
-
-#dropbtn {
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 132.03%;
-    color: #fff;
-    background: none;
-    border: none;
-    margin-bottom: 28px;
-}
-
-
-
-.inneroverlay .inner-content {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 132.03%;
-    margin-bottom: 25px;
-}
-
-.inneroverlay {
-    /* visibility: hidden;
-    opacity: 0; */
-
-    display: none;
-}
-
-
-.show {
-   /*  visibility: visible;
-    opacity: 1; */
-
-    display: block;
-}
-
-
-.drop-arrow {
-    transform: rotate(180deg);
-    transition: 0.2s ease;
-}
-
-
-
-
-
-
-
-
-
 
 
 
@@ -489,11 +421,10 @@ span {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     width: 95%;
-    margin: auto;
+    margin: 59px auto 132px;
     height: 701px;
     padding: 30px 90px;
     background-image: url(img/Mask\ group\ \(15\).png);
-    margin-bottom: 300px;
 }
 
 
@@ -569,7 +500,6 @@ span {
     position: relative;
     display: flex;
     justify-content: space-around;
-    
     /* border: 1px solid black; */
     margin-top: 50px;
     margin-bottom: 70px;
@@ -583,8 +513,8 @@ span {
 
 .personal-testinony {   
     width: 561px;
-    height: 442px;
-    padding: 100px 52px 0px;
+    height: 336px;
+    padding: 44px 28px 0px;
     background: #FFFFFF;
     border: 1px solid #E2DFDF;
     box-shadow: 0px 14px 9px -9px #F3F3F3;
@@ -610,7 +540,7 @@ span {
     font-weight: 400;
     font-size: 20px;
     line-height: 188.03%;
-    color: #BD000D;
+    color: #222;
 
 }
 
@@ -622,12 +552,51 @@ span {
   
   @keyframes slides {
     0% {
-      transform: translateX(300px);
+      transform: translateX(600px);
     }
     100% {
       transform: translateX(0);
     }
 }
+
+.color-dots {
+    cursor: pointer;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #D9D9D9;
+}
+
+.active, .color-dots:hover {
+    background-color: #222222;
+  }
+
+
+.left-arrow {
+    width: 82px;
+    height: 82px;
+    display: inline-block;
+    background: url(img/Group\ 146\ \(1\).png);
+}
+
+
+
+
+.right-arrow {
+    width: 82px;
+    height: 82px;
+    display:inline-block;
+    background: url(img/Group\ 145\ \(2\).png);
+}
+
+
+
+.right-arrow:hover {
+    
+}
+
+
 
 .the-arrows {
     width: 85%;
@@ -636,6 +605,11 @@ span {
     /* display: block; */
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 114px;
+}
+
+.the-arrows:active {
+    color: #FABB05;
 }
 
 #dots-box {
@@ -647,10 +621,6 @@ span {
     align-items: end;
 }
 
-.redcolor-dots {
-    display: none;
-}
-
 
 /* This is the frequently asked question css section */
 
@@ -659,6 +629,7 @@ span {
     font-size: 30px;
     line-height: 132.03%;
     text-align: center;
+    margin-bottom: 58px;
 }
 
 .faqboxes {
@@ -778,10 +749,8 @@ span {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 85%;
-    margin: auto;
-    margin-top: 250px;
-    margin-bottom: 200px;
+    width: 73%;
+    margin: 88px auto 82px;
 }
 
 .are-you-ready h2 {
@@ -800,7 +769,7 @@ span {
     line-height: 132.03%;
     padding: 20px 70px;
     color: #FFFFFF;
-    background-color: #BD000D;
+    background-color: #222222;
     margin-bottom: 18px;
 }
 
@@ -1152,21 +1121,88 @@ footer {
 @media only screen and (max-width: 900px) {
 
     .overlay {
-        display: none;
         width: 100%;
-        height: 100%;
+        height: 0;
+        position: fixed;
+        display: block;
         background-color: #F5CE2E;
         color: #FFFFFF;
         z-index: 2;
-        position: fixed;
         padding: 0px 20px;
-        margin-top: -12px;
+        margin-top: 0px;
+        overflow-y: hidden;
         transition: 0.5s;
-}    
+        transition: 1.5s;
+}  
 
-    .overlay-content {
+
+
+
+.overlay-content a {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 132.03%;
+    color: #fff;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.closeboottn {
+    position: relative;
+    left: 90%;
+}
+
+
+#dropbtn {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 132.03%;
+    color: #fff;
+    background: none;
+    border: none;
+    margin-bottom: 28px;
+}
+
+
+
+.inneroverlay .inner-content {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 132.03%;
+    margin-bottom: 25px;
+}
+
+.inneroverlay {
+    /* visibility: hidden;
+    opacity: 0; */
+
+    display: none;
+}
+
+
+.show {
+   /*  visibility: visible;
+    opacity: 1; */
+
+    display: block;
+}
+
+
+.drop-arrow {
+    transform: rotate(180deg);
+    transition: 0.2s ease;
+}
+
+
+.overlay-content {
         position: relative;
+        height: 100%;
+
     }
+
+
 
 
 
@@ -1540,6 +1576,7 @@ footer {
     background: #FFFFFF;
     border: 1px solid #E2DFDF;
     box-shadow: 0px 14px 9px -9px #F3F3F3;
+    margin-bottom: 21px;
 }
 
 .testimony-p {
@@ -1589,6 +1626,7 @@ footer {
     justify-content: center;
     align-items: center;
     border: none;
+    margin-bottom: 71px;
 }
 
 #left-and-right {
@@ -1604,7 +1642,7 @@ footer {
     align-items: center;
 }
 
-.dot-image {
+.color-dots {
     width: 8px;
     height: 8px;
 }
