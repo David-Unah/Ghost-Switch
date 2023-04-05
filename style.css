@@ -114,14 +114,15 @@ nav {
 /* this is the small icone firstlink css */
 #small-screen-firstlink {
     display: none;
+    width: 50%;
 }
 
-#small-screen-firstlink #whatsapplogo, #callogo {
-    position: relative;
-    bottom: 4px;
-    margin-right: 40px;
+.main-smallscreen-menubox {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
 }
-
 
 
 
@@ -778,6 +779,9 @@ span {
     display: inline;
 }
 
+
+
+
  /* this is the css codes for the Ghost-s page */
 
 .ghost-s_2nd_main {
@@ -1138,6 +1142,7 @@ footer {
 
 
 
+
 .overlay-content a {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -1227,6 +1232,21 @@ footer {
 
     #small-screen-firstlink {
         display: block;
+        margin-top: 4px;
+    }
+
+    .mobile-menucross {
+        width: 22.5px;
+        height: 22.5px;
+        display: grid;
+        grid-template-columns: 8px 8px;
+        grid-template-rows: 8px 8px;
+        grid-column-gap: 4px;
+        grid-row-gap: 4px;
+    }
+    
+    .menulittleboxs {
+        background-color: #FABB05;
     }
 
     .first-main-box {
@@ -1659,11 +1679,11 @@ footer {
 .faqboxes {
     display: flex;
    /*  justify-content: center; */
-    width: 85%;
+    width: 90%;
     margin: auto;
     padding-top: 21px;
     padding-bottom: 4px;
-    padding-left: 5px;
+    padding-left: 11px;
     background-color: #F0F0F0;
     border: none;
     margin-bottom: 19px;
