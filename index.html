@@ -25,7 +25,8 @@
         </div>
 
         <div class="overlay-content ">
-            <a href="automatic-slides.html">Home</a> <!-- i selected this link to take me to slides temporarily -->
+            <a href="javascript:void(0)" onclick="closeNav()">Home</a>
+            <!-- i selected this link to take me to slides temporarily -->
 
 
 
@@ -36,10 +37,16 @@
                         alt="dropdown arrow" class="dropdown-arrow" id="drop-arrow"></button>
                 <div id="myDropdown" class="inneroverlay">
                     <a href="ghost-s.html" class="inner-content">Ghost_S</a>
-                    <a href="Ghost-Air.html" class="inner-content">Ghost Air <img src="img/Group 244 (1).png"
-                            alt="coming soon icon"></a>
-                    <a href="ghostswtich-lock.html" class="inner-content">Ghost Safe Lock <img
-                            src="img/Group 244 (1).png" alt="coming soon icon"></a>
+                    <a href="Ghost-Air.html" class="inner-content">Ghost Air
+                        <div class="comingsoon-icon">
+                            coming soon
+                        </div>
+                    </a>
+                    <a href="ghostswtich-lock.html" class="inner-content">Ghost Safe Lock
+                        <div class="comingsoon-icon">
+                            coming soon
+                        </div>
+                    </a>
                 </div>
             </div>
 
@@ -47,14 +54,19 @@
 
 
 
-            <a href="#ourservices">Services</a>
+            <a href="#ourservices" onclick="closeNav()">Services</a>
             <a href="company.html">Company</a>
-            <a href="#call-us">Contact</a>
+            <a href="#call-us" onclick="closeNav()">Contact</a>
         </div>
 
     </div>
     <nav>
-        <a href="#"><img src="img/Group 47 (1).png" alt="Ghostswitch icons" width="168" height="55" id="main-icon"></a>
+        <a href="#" id="main-icon">
+            <div class="ghostswitch-logobox">
+                <div><img src="img/Group 46 (1).png" alt="ghost-icon"></div>
+                <div>Ghost Switch</div>
+            </div>
+        </a>
         <div class="nav-icons">
             <a href="automatic-slides.html" class="firstlinks">Home</a>
             <div style="position: relative;" class="products">
@@ -403,7 +415,15 @@
     </main>
     <footer>
         <div class="footer-box">
-            <div><img src="img/Group 48 (1).png" alt="ghostswitch logo" class="footmainimage"></div>
+            <a href="#" class="main-footer-icon">
+                <div class="ghostswitch-footer-logobox">
+                    <div><img src="img/Group 46 (3).png" alt="ghost-icon" id="web-footer-icon">
+                        <!-- this image below is for the mobile view -->
+                        <img src="img/Group 48 (3).png" alt="ghost-icon" id="mobile-footer-icon">
+                    </div>
+                    <div>Ghost Switch</div>
+                </div>
+            </a>
             <div class="products-services"> <!-- this div should be displayed flex -->
                 <div class="footerproduct-box">
                     <h3>Products</h3>

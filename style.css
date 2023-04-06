@@ -32,6 +32,19 @@ a {
     text-decoration: none;
 }
 
+.ghostswitch-logobox {
+    width: 104%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Verdana', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 132.03%;
+    color: #FABB05;
+}
+
 nav {
     height: 98px;
     display: flex;
@@ -114,7 +127,7 @@ nav {
 /* this is the small icone firstlink css */
 #small-screen-firstlink {
     display: none;
-    width: 50%;
+    width: 42%;
 }
 
 .main-smallscreen-menubox {
@@ -504,6 +517,8 @@ span {
     /* border: 1px solid black; */
     margin-top: 50px;
     margin-bottom: 70px;
+    user-select: none;
+    touch-action: pan-x;
 }
 
 
@@ -1038,6 +1053,23 @@ footer {
     color: #FFFFFF;
 }
 
+.ghostswitch-footer-logobox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Verdana', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 132.03%;
+    color: #FFFFFF;
+}
+
+#mobile-footer-icon {
+    display: none;
+}
+
 .footer-box h3 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -1124,6 +1156,22 @@ footer {
 
 @media only screen and (max-width: 900px) {
 
+
+.ghostswitch-logobox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Verdana', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 132.03%;
+    color: #FABB05;
+}
+
+
+
     .overlay {
         width: 100%;
         height: 0;
@@ -1207,14 +1255,30 @@ footer {
 
     }
 
-
+.comingsoon-icon {
+    display: inline-block;
+    position: relative;
+    bottom: 3px;
+    left: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 6px;
+    line-height: 132.03%;
+    width: 56px;
+    color: #FFFFFF;
+    padding: 2px 7px;
+    text-align: center;
+    background: #4285F4;
+    border-radius: 10px;
+}
 
 
 
 
 
     #main-icon {
-        width: 108px;
+        width: 33%;
         height: auto;
     }
  
@@ -1232,7 +1296,7 @@ footer {
 
     #small-screen-firstlink {
         display: block;
-        margin-top: 4px;
+        margin-top: 9px;
     }
 
     .mobile-menucross {
@@ -2126,6 +2190,34 @@ footer {
     width: 100%;
     color: #FFFFFF;
 }
+
+.main-footer-icon {
+    padding-left: 13px;
+}
+
+
+.ghostswitch-footer-logobox {
+    width: 153px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Verdana', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 132.03%;
+    color: #FFFFFF;
+}
+
+#web-footer-icon {
+    display: none;
+}
+
+
+#mobile-footer-icon {
+    display: block;
+}
+
 
 .footmainimage {
     width: 150px;

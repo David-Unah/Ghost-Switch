@@ -83,7 +83,7 @@ showSlides();
  headslides(slideNum);
  
  function plusSlides(n) {
-     headslides(slideIndexx += n);
+     headslides(slideNum += n);
  }
  
  function currentSlide(n) {
