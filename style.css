@@ -1362,9 +1362,18 @@ footer {
         margin-left: 11px;
     }
 
+.pd-box {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+
+
     #phone-design {
-        width: 99%;
-        height: 275px;
+        width: 80%;
+        height: auto;
+        margin: auto;
     }
 
 
