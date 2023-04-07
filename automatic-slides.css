@@ -234,7 +234,7 @@ span {
     color: #4285F4;
 }
 
-.fifthslide a:hover {
+.fourthslide a:hover {
     color: #BD000D;
 }
 
@@ -288,6 +288,11 @@ span {
     line-height: 132.03%;
     color: #4285F4;
 }
+
+.fifthslide a:hover {
+    color: #BD000D;
+}
+
 
 
 .fifthslidemobilep {
@@ -350,6 +355,11 @@ span {
     text-align: center;
     color: #4285F4;
 }
+
+
+.sixthslide a:hover {
+    color: #BD000D;
+}
     
    
 
@@ -405,7 +415,9 @@ span {
     color: #4285F4;
 }
 
-
+.seventhslide a:hover {
+    color: #BD000D;
+}
 
   
   /* Fading animation */
@@ -418,34 +430,6 @@ span {
     from {opacity: .4} 
     to {opacity: 1}
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -632,7 +616,7 @@ span {
       }
 
     
-    .active, .dots:hover {
+    .active, .dot:hover {
         background-color: #222222;
       }
     

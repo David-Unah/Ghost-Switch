@@ -458,7 +458,7 @@
 
 .GA-fifthmainbox img {
     width: 314px;
-    height: 281px;
+    height: auto;
     position: relative;
     left: 0px;
 }

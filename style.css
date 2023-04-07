@@ -181,6 +181,10 @@ nav {
     margin-top: 110px;
 }
 
+
+
+
+
 .first-main-box div h1 {
     position: relative;
     bottom: 35px;
@@ -1366,7 +1370,7 @@ footer {
         width: 100%;
         height: auto;
         flex-direction: column;
-        margin-top: 86px;
+        margin-top: 66px;
 
     }
 
@@ -1374,7 +1378,11 @@ footer {
         width: 338px;
         padding-left: 23px;
         margin-bottom: 40px;
+        animation-name: innermain;
     }
+
+    
+
 
     #phone {
         width: 14.38px;
@@ -1701,6 +1709,7 @@ footer {
     /* border: 1px solid black; */
     margin-top: 50px;
     margin-bottom: 7px;
+    overflow: hidden;
 }
 
 
@@ -1752,7 +1761,7 @@ footer {
   
   @keyframes slides {
     0% {
-      transform: translateX(300px);
+      transform: translateX(400px);
     }
     100% {
       transform: translateX(0);
@@ -2252,7 +2261,7 @@ footer {
 .ft-icon-box {
     width: 83%;
     text-align: left;
-    padding-right: 102px;
+    padding-right: 127px;
 }
 
 
@@ -2262,7 +2271,7 @@ footer {
 
 
 .ghostswitch-footer-logobox {
-    width: 155px;
+    width: 154px;
     margin: auto;
     display: flex;
     justify-content: space-between;
