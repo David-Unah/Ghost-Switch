@@ -5,6 +5,12 @@
     scroll-behavior: smooth;
     }
 
+
+.slide-holder {
+    margin-bottom: 70px;
+}
+
+
 .mySlides {
     display: none; 
 }
@@ -59,6 +65,10 @@ span {
     color: #FFFFFF;
     text-align: center;
     margin-top: 57px
+}
+
+.firstslide a:hover {
+    color: #BD000D;;
 }
 
 
@@ -164,6 +174,12 @@ span {
     left: 10px;
 }
 
+
+.thirdslideboxchild a:hover {
+    color: #BD000D;
+}
+
+
 #rectangle3 {
     display: none;
 }
@@ -216,6 +232,10 @@ span {
     font-size: 20px;
     line-height: 132.03%;
     color: #4285F4;
+}
+
+.fifthslide a:hover {
+    color: #BD000D;
 }
 
 
@@ -387,9 +407,6 @@ span {
 
 
 
-.active {
-    background-color: #717171;
-  }
   
   /* Fading animation */
   .fade {
@@ -436,7 +453,7 @@ span {
 .next, .prev {
         cursor: pointer;
         position: absolute;
-        top: 50%;
+        top: 40%;
         width: auto;
         margin-top: -22px;
         padding: 16px;
@@ -453,6 +470,10 @@ span {
     right: 0;
 }
 
+
+.active, .dot:hover {
+    background-color: #222222;
+  }
 
 .dot {
     position: relative;
@@ -525,6 +546,11 @@ span {
 
     .firstslidechild {
         display: flex;
+    }
+
+    .fst-slide-imgbox {
+        width:70%;
+        margin: auto;
     }
     
     #smartlock {

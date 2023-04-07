@@ -46,7 +46,7 @@ a {
 }
 
 nav {
-    height: 98px;
+    height: 65px;
     display: flex;
     justify-content: space-between ;
     align-items: center;
@@ -63,6 +63,14 @@ nav {
     display: flex;
     justify-content: space-between;
     width: 50%;
+    margin-top: 17px;
+
+}
+
+
+#pd-down-arrow {
+    position: relative;
+    top: 4px;
 }
 
 
@@ -77,7 +85,7 @@ nav {
 }
 
 .firstlinks:hover {
-    color: #FABB05;
+    color: #BD000D;
 }
 
 /* this is the css for the product dropdown on hover */
@@ -107,17 +115,42 @@ nav {
     margin-left: 5px;
 }
 
+
+.ga-drp-box {
+    display: flex;
+}
+
+
+.pd-main-comingsoon {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 6px;
+    line-height: 132.03%;
+    color: #FFFFFF;
+    text-align: center;
+    width: 56px;
+    height: 12px;
+    background-color: #4285F4;
+    border-radius: 10px;
+    padding-top: 2.7px;
+    margin-left: 12px;
+}
+
+
+
 #product-dropdown a {
     display: block;
     color: #222222;
 }
 
 #product-dropdown a:hover {
-    color: #F5CE2E;
+    color: #BD000D;
 }
 
-#product-dropdown a:nth-child(2), a:last-child {
-    margin-top: 20px;
+
+.pd-ghostSL {
+    margin-top: 20PX;
 }
 
 .products:hover #product-dropdown {
@@ -164,7 +197,7 @@ span {
 
 #yellow-ghost {
     display: inline;
-    color: #FFCE31;
+    color: #BD000D;
 }
 
 .talk-to-us-parentbox {
@@ -323,11 +356,11 @@ span {
 }
 
 .third-main-box-one a:hover {
-    color: #F5CE2E;
+    color: #BD000D;
 
 }
 
-.third-main-box-one a:hover .yellow-right-arrow {
+.third-main-box-one a:hover .wine-right-arrow {
     display: inline-block;
 }
 
@@ -336,7 +369,7 @@ span {
 }
 
 
-.yellow-right-arrow {
+.wine-right-arrow {
     display: none;
 }
 
@@ -384,14 +417,16 @@ span {
     background-color: #F5F5F5;
 }
 
-
+.ourproduct-firstboxinner1 a:hover {
+    color: #BD000D;
+}
 
 
 .ourproduct-firstboxinner2 {
     width: 69.54%;
     height: auto;
     text-align: center;
-    background-color: #FABB05;
+    background-color: #BD000D;
     padding-bottom: 72px;
 
 }
@@ -426,6 +461,10 @@ span {
     color: #222222; 
     padding: 25px 61px;
     background-color: #fff;
+}
+
+.ourproduct-firstboxinner2 a:hover {
+    color: #BD000D;
 }
 
 
@@ -482,6 +521,10 @@ span {
     color: #222222;
     padding: 25px 61px;;
     background-color: #fff;
+}
+
+.ourproduct-secondbox a:hover {
+    color: #BD000D;
 }
 
 
@@ -561,19 +604,19 @@ span {
 }
 
    /* Fading animation */
-.test-slides {
+/* .test-slides {
     animation-name: slides;
     animation-duration: 1.5s;
   }
   
   @keyframes slides {
     0% {
-      transform: translateX(600px);
+      transform: translateX(380px);
     }
     100% {
       transform: translateX(0);
     }
-}
+} */
 
 .color-dots {
     cursor: pointer;
@@ -1076,7 +1119,7 @@ footer {
     font-weight: 600;
     font-size: 18px;
     line-height: 169.53%;
-    color: #F5CE2E;
+    color: #BD000D;
     margin-bottom: 20px;
 }
 
@@ -1165,11 +1208,17 @@ footer {
     font-family: 'Verdana', sans-serif;
     font-style: normal;
     font-weight: 400;
+    margin-top: 6px;
     font-size: 12px;
     line-height: 132.03%;
-    color: #FABB05;
+    color: #BD000D;
 }
 
+
+#main-landing-icon {
+    width: 21px;
+    height: 26px;
+}
 
 
     .overlay {
@@ -1177,7 +1226,7 @@ footer {
         height: 0;
         position: fixed;
         display: block;
-        background-color: #F5CE2E;
+        background: linear-gradient(180deg, #BD000D 0%, #260003 100%);
         color: #FFFFFF;
         z-index: 2;
         padding: 0px 20px;
@@ -1310,7 +1359,7 @@ footer {
     }
     
     .menulittleboxs {
-        background-color: #FABB05;
+        background-color: #BD000D;
     }
 
     .first-main-box {
@@ -1357,7 +1406,7 @@ footer {
         width: 122px;
         height: 34px;
         font-size: 10px;
-        padding-top: 0px;
+        padding-top: 10px;
         border: none;
         margin-left: 11px;
     }
@@ -1649,7 +1698,6 @@ footer {
     position: relative;
     display: flex;
     justify-content: space-around;
-    
     /* border: 1px solid black; */
     margin-top: 50px;
     margin-bottom: 7px;
@@ -1692,12 +1740,12 @@ footer {
     font-weight: 400;
     font-size: 14px;
     line-height: 188.03%;
-    color: #BD000D;
+    color: #4D4D4D;
 
 }
 
    /* Fading animation */
-.test-slides {
+/* .test-slides {
     animation-name: slides;
     animation-duration: 1.5s;
   }
@@ -1709,7 +1757,7 @@ footer {
     100% {
       transform: translateX(0);
     }
-}
+} */
 
 .the-arrows {
     width: 85%;
@@ -1849,7 +1897,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     width: 85%;
-    margin-top: 46px;
+    margin-top: 59px;
     margin-bottom: 36px
 }
 
@@ -1857,6 +1905,7 @@ footer {
     width: 100%;
     font-size: 20px;
     text-align: center;
+    margin-bottom: 26px;
 }
 
 .are-you-ready a {
@@ -2200,13 +2249,21 @@ footer {
     color: #FFFFFF;
 }
 
+.ft-icon-box {
+    width: 83%;
+    text-align: left;
+    padding-right: 102px;
+}
+
+
 .main-footer-icon {
-    padding-left: 13px;
+    padding-left: 0px;
 }
 
 
 .ghostswitch-footer-logobox {
-    width: 153px;
+    width: 155px;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -2247,6 +2304,7 @@ footer {
 
 .footer-box a {
     font-size: 12px;
+    margin-bottom: 20px;
 }
 
 .footer-box p {
@@ -2260,9 +2318,9 @@ footer {
 
 
 .products-services {
-    width: 60%;
+    width: 83%;
     margin: auto;
-    display: flex;
+    display: block;
     justify-content: space-between;
     margin-top: 20px;
 }
@@ -2273,8 +2331,9 @@ footer {
 
 .address-contact {
     display: flex;
+    flex-direction: column-reverse;
     justify-content: space-around;
-    width: 73%;
+    width: 83%;
     margin: auto;
     margin-bottom: 14px;
 }
@@ -2288,7 +2347,8 @@ footer {
 .footer-logo {
     display: flex;
     justify-content: start;
-    padding-left: 30px;
+    padding-left: 0px;
+    margin-top: 9px;
 }
 
 

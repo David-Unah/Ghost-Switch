@@ -84,6 +84,9 @@ showSlides();
  
  function plusSlides(n) {
      headslides(slideNum += n);
+  /* if (slideNum = 1) {
+        document.getElementsByClassName("left-arrow").style.opacity = 0.7;
+     } */
  }
  
  function currentSlide(n) {
@@ -93,7 +96,7 @@ showSlides();
  function headslides(n) {
    let i;
    let slidesbox = document.getElementsByClassName("mySlides");
-   let dots = document.getElementsByClassName("color-dots");
+   let dots = document.getElementsByClassName("dots");
    if (n > slidesbox.length) {slideNum = 1}    
    if (n < 1) {slideNum = slidesbox.length}
    for (i = 0; i < slidesbox.length; i++) {

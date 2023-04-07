@@ -55,8 +55,8 @@
     <nav>
         <a href="#" id="main-icon">
             <div class="ghostswitch-logobox">
-                <div><img src="img/Group 46 (1).png" alt="ghost-icon"></div>
-                <div>Ghost Switch</div>
+                <div><img src="img/Group 46 (4).png" alt="ghost-icon" id="main-landing-icon"></div>
+                <div style="color: #BD000D;">Ghost Switch</div>
             </div>
         </a>
         <div class="nav-icons">
@@ -66,10 +66,25 @@
                 <div id="product-dropdown">
                     <!-- this div should be position absolute because it is a dropdown for Products -->
                     <a href="ghost-s.html">Ghost_S</a>
-                    <a href="Ghost-Air.html">Ghost Air <img src="img/Group 244.png" alt="coming soon icon" width="56"
-                            height="12" class="comining-soon"></a>
-                    <a href="ghostswtich-lock.html">Ghost Safe Lock <img src="img/Group 244.png" alt="coming soon icon"
-                            width="56" height="12" class="comining-soon">
+                    <a href="Ghost-Air.html" class="pd-ghostSL">
+                        <div class="ga-drp-box">
+                            <div>
+                                Ghost Air
+                            </div>
+                            <div class="pd-main-comingsoon">
+                                coming soon
+                            </div>
+                        </div>
+                    </a>
+                    <a href="ghostswtich-lock.html" class="pd-ghostSL">
+                        <div class="ga-drp-box">
+                            <div>
+                                Ghost Safe Lock
+                            </div>
+                            <div class="pd-main-comingsoon">
+                                coming soon
+                            </div>
+                        </div>
                     </a>
                 </div>
             </div>
@@ -99,11 +114,11 @@
     <main>
         <!-- this is the first main content slide show headsection -->
         <!-- this is the container box that holds all the slides -->
-        <div>
+        <div class="slide-holder">
             <!-- this is the first slide -->
             <div class="mySlides fade">
                 <div class="firstslide">
-                    <div>
+                    <div class="fst-slide-imgbox">
                         <img src="img/Group 215.png" alt="smartlock icon" id="smartlock">
                     </div>
                     <div class="firstslidechild">
@@ -381,7 +396,17 @@
     </main>
     <footer>
         <div class="footer-box">
-            <div><img src="img/Group 48 (1).png" alt="ghostswitch logo" class="footmainimage"></div>
+            <a href="#" class="main-footer-icon">
+                <div class="ft-icon-box">
+                    <div class="ghostswitch-footer-logobox">
+                        <div><img src="img/Group 46 (5).png" alt="ghost-icon" id="web-footer-icon">
+                            <!-- this image below is for the mobile view -->
+                            <img src="img/Group 48 (4).png" alt="ghost-icon" id="mobile-footer-icon">
+                        </div>
+                        <div>&nbsp;Ghost Switch</div>
+                    </div>
+                </div>
+            </a>
             <div class="products-services"> <!-- this div should be displayed flex -->
                 <div class="footerproduct-box">
                     <h3>Products</h3>
