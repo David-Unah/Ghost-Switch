@@ -604,7 +604,7 @@ span {
 }
 
    /* Fading animation */
-/* .test-slides {
+.test-slides {
     animation-name: slides;
     animation-duration: 1.5s;
   }
@@ -616,7 +616,7 @@ span {
     100% {
       transform: translateX(0);
     }
-} */
+}
 
 .color-dots {
     cursor: pointer;
@@ -1201,7 +1201,7 @@ footer {
 
 
 .ghostswitch-logobox {
-    width: 100%;
+    width: 93%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1745,7 +1745,7 @@ footer {
 }
 
    /* Fading animation */
-/* .test-slides {
+.test-slides {
     animation-name: slides;
     animation-duration: 1.5s;
   }
@@ -1757,7 +1757,7 @@ footer {
     100% {
       transform: translateX(0);
     }
-} */
+}
 
 .the-arrows {
     width: 85%;
