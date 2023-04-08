@@ -846,6 +846,7 @@ span {
 
  /* this is the css codes for the Ghost-s page */
 
+
 .ghost-s_2nd_main {
     display: flex;
     width: 85%;
@@ -1100,6 +1101,9 @@ footer {
     color: #FFFFFF;
 }
 
+
+
+
 .ghostswitch-footer-logobox {
     width: 100%;
     display: flex;
@@ -1205,7 +1209,7 @@ footer {
 
 
 .ghostswitch-logobox {
-    width: 93%;
+    width: 105px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1936,6 +1940,11 @@ footer {
 
 /* this is the css design for the ghost-s page mobile view */
 
+#Ghost-s-page {
+    opacity: 0.5;
+    
+} 
+
 
 .ghost-s_2nd_main {
     flex-direction: column;
@@ -2258,21 +2267,22 @@ footer {
     color: #FFFFFF;
 }
 
-.ft-icon-box {
-    width: 83%;
-    text-align: left;
-    padding-right: 127px;
+.first-foot-box {
+    width: 85%;
+    margin: auto;
 }
 
 
-.main-footer-icon {
-    padding-left: 0px;
-}
+
+/* .ft-icon-box {
+    width: 236px;
+    
+} */
+
 
 
 .ghostswitch-footer-logobox {
     width: 154px;
-    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;

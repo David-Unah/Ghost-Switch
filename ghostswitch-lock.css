@@ -153,6 +153,11 @@
     
     }
 
+
+    #ghost-safe {
+        opacity: 0.5;
+    }
+
     #gsl-2ndmain-mainimage {
         width: 100%;
     }

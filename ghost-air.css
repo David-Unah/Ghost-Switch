@@ -247,7 +247,9 @@
         width: 100%;
     }
 
-
+#ghost-a-page {
+    opacity: 0.5;
+}
 
 
 

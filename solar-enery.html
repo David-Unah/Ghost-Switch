@@ -46,7 +46,7 @@
             </div>
             <a href="index.html#ourservices">Services</a>
             <a href="company.html">Company</a>
-            <a href="#call-us">Contact</a>
+            <a href="#call-us" onclick="closeNav()">Contact</a>
         </div>
     </div>
     <nav>
@@ -322,9 +322,13 @@
                                 id="mobile-ordernow-arrow"></a>
                     </div>
                     <div>
-                        <img src="img/whatsapp-whats-app-svgrepo-com 2 (1).png" alt="whatsapp icon" id="mobile-whatsapp"
-                            class="whats-call">
-                        <img src="img/Group 202.png" alt="phone icon" class="whats-call">
+                        <a href="#">
+                            <img src="img/whatsapp-whats-app-svgrepo-com 2 (1).png" alt="whatsapp icon"
+                                id="mobile-whatsapp" class="whats-call">
+                        </a>
+                        <a href="#">
+                            <img src="img/Group 202.png" alt="phone icon" class="whats-call">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -372,8 +376,8 @@
     </main>
     <footer>
         <div class="footer-box">
-            <a href="#" class="main-footer-icon">
-                <div class="ft-icon-box">
+            <div class="first-foot-box">
+                <a href="#main-icon" id="footmain">
                     <div class="ghostswitch-footer-logobox">
                         <div><img src="img/Group 46 (5).png" alt="ghost-icon" id="web-footer-icon">
                             <!-- this image below is for the mobile view -->
@@ -381,8 +385,8 @@
                         </div>
                         <div>&nbsp;Ghost Switch</div>
                     </div>
-                </div>
-            </a>
+                </a>
+            </div>
             <div class="products-services"> <!-- this div should be displayed flex -->
                 <div class="footerproduct-box">
                     <h3>Products</h3>
