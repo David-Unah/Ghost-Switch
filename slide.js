@@ -1,4 +1,4 @@
-let slideIndex = 0;
+/* let slideIndex = 0;
 showSlides();
 
 function showSlides() {
@@ -16,14 +16,14 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 5000); // Change image every 2 seconds
-}
+} */
 
 
 
 /* this is for the header manual slides */
 
 
-let slideNum = 1;
+/* let slideNum = 1;
 headslides(slideNum);
 
 function plusSlides(n) {
@@ -49,4 +49,4 @@ function headslides(n) {
   slidesbox[slideNum-1].style.display = "block";  
   dots[slideNum-1].className += " active";
 
- }
+ } */

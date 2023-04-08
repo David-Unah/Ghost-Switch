@@ -29,6 +29,25 @@
     color: #FABB05;
 }
 
+
+.the-hive {
+    animation-name: hive;
+    animation-duration: 2.5s;
+    animation-delay: 1s;
+
+}
+
+@keyframes hive {
+    0% {
+        transform: translateX(-100px)
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+
 .company-firstmainbox p {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
