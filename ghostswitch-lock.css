@@ -7,6 +7,12 @@
 
 }
 
+.pd-down-arrow {
+    position: relative;
+    top: 4px;
+    left: 6px;
+}
+
 .gsl-2ndmain-2ndchild {
     margin-top: 9px;
 }

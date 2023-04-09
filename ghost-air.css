@@ -6,6 +6,12 @@
 }
 
 
+.pd-down-arrow {
+    position: relative;
+    top: 4px;
+    left: 6px;
+}
+
 .ghost-air-secondmain h1 {
     font-weight: 500;
     font-size: 50px;
@@ -54,6 +60,7 @@
             }
           }
     
+
 
 
 
@@ -125,6 +132,8 @@
     height: 586px;
     display: block;
 }
+
+
 
 
 /* this is for the fourth main box for the ghost air page */
@@ -307,7 +316,9 @@
                     }
                   }
             
-
+    #gh-air-order {
+    color: #FFCE31;
+}
     
     
     .ghost-air-secondmain a {

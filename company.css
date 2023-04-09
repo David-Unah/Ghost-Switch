@@ -5,6 +5,13 @@
     margin-bottom: 41px;
 }
 
+.pd-down-arrow {
+    position: relative;
+    top: 4px;
+    left: 6px;
+}
+
+
 /* this is the first main box for the company page */
 
 .company-firstmainbox {
@@ -33,13 +40,12 @@
 .the-hive {
     animation-name: hive;
     animation-duration: 2.5s;
-    animation-delay: 1s;
 
 }
 
 @keyframes hive {
     0% {
-        transform: translateX(-100px)
+        transform: translateX(-400px)
     }
     100% {
         transform: translateX(0);
@@ -461,6 +467,10 @@
     padding: 30px 50px;
     border-radius: 50%;
     margin-bottom: 20px;
+}
+
+.snd-image-com {
+    padding: 38px 50px;
 }
 
 

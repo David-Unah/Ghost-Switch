@@ -11,6 +11,12 @@
     display: none;
 }
 
+.pd-down-arrow {
+    position: relative;
+    top: 4px;
+    left: 6px;
+}
+
 
 .FA-1stmainboxchild2 h1{
     font-weight: 500;
@@ -43,6 +49,12 @@ a.FA-GAQ {
     font-size: 20px;
     line-height: 132.03%;
     color: #222222;
+}
+
+
+#se-quote {
+    color: #FFCE31;
+
 }
 
 #FA-gaq-image {

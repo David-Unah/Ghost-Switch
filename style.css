@@ -32,6 +32,8 @@ a {
     text-decoration: none;
 }
 
+
+
 .ghostswitch-logobox {
     width: 104%;
     display: flex;
@@ -68,7 +70,7 @@ nav {
 }
 
 
-#pd-down-arrow {
+.pd-down-arrow {
     position: relative;
     top: 4px;
 }
@@ -259,6 +261,22 @@ span {
     line-height: 132.03%;
     margin-bottom: 80px;
 }
+
+.the-hive {
+    animation-name: hive;
+    animation-duration: 1.5s;
+
+}
+
+@keyframes hive {
+    0% {
+        transform: translateX(-400px)
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
 
 
 #family-image {
@@ -564,8 +582,6 @@ span {
     /* border: 1px solid black; */
     margin-top: 50px;
     margin-bottom: 70px;
-    user-select: none;
-    touch-action: pan-x;
 }
 
 
@@ -845,7 +861,11 @@ span {
 
 
  /* this is the css codes for the Ghost-s page */
-
+ .pd-down-arrow {
+    position: relative;
+    top: 4px;
+    left: 6px;
+}
 
 .ghost-s_2nd_main {
     display: flex;
@@ -1040,6 +1060,14 @@ span {
     margin-bottom: 130px;
 }
 
+.ghs-fifthmainbox h2 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 192%;
+    color: #222222;
+    margin-bottom: 20px;
+}
+
 .ghs-fifthmainbox div p {
     font-weight: 500;
     font-size: 20px;
@@ -1059,7 +1087,7 @@ span {
 
 .ght-fifthmain-2ndbox {
     width: 100%;
-    margin-left: 80px;
+    margin-left: 40px;
 }
 
 
@@ -1993,6 +2021,10 @@ footer {
     text-align: right;
 }
 
+a.three-link-order {
+    color: #FFCE31;
+}
+
 
 
 .vid {
@@ -2183,9 +2215,19 @@ span#p-child {
     margin-bottom: 50px;
 }
 
+.ghs-fifthmainbox  div h2 {
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 192%;
+    color: #222222; 
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
 .ghs-fifthmainbox div p {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 19px;
     line-height: 192%;
     color: #222222; 
     margin-bottom: 24px;

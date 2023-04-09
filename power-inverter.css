@@ -7,6 +7,12 @@
     margin-bottom: 100px;
 }
 
+.pd-down-arrow {
+    position: relative;
+    top: 4px;
+    left: 6px;
+}
+
 .mobile-watch-review {
     display: none;
 }
@@ -48,6 +54,12 @@ a.FA-GAQ {
 #FA-gaq-image {
     position: relative;
     top: 5px;
+}
+
+
+#pi-quote {
+    color: #FFCE31;
+
 }
 
 .FA-webthreelinks {
