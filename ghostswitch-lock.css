@@ -147,7 +147,7 @@
 
 /* this is the mobile media quary for ghostswitch lock page */
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1211px) {
 
     .gsl-secondmainbox {
         width: 85%;
