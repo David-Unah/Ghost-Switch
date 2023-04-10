@@ -381,10 +381,11 @@
     width: 100%;
     background-color: #222222;
     color: #fff;
-    padding: 66px 20px;
+    padding: 51px 20px;
 }
 
 .company-thirdmainbox div h2 {
+    text-align: center;
     color: #fff;
 }
 
@@ -396,6 +397,7 @@
     font-size: 14px;
     line-height: 169.53%;
     margin-top: 20px;
+    text-align: center;
 }
 
 
