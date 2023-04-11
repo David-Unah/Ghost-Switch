@@ -177,6 +177,7 @@
     font-size: 18px;
     line-height: 169.53%;
     color: #727171;
+    margin-bottom: 20px;
 }
 
 
@@ -466,7 +467,7 @@
 
 .img-div {
     background-color: #FFCE31;
-    padding: 30px 50px;
+    padding: 38px 50px;
     border-radius: 50%;
     margin-bottom: 20px;
 }

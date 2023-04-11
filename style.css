@@ -33,8 +33,14 @@ a {
 }
 
 
+#main-icon {
+    display: flex;
+    align-items: center;
+}
 
-.ghostswitch-logobox {
+
+
+/* .ghostswitch-logobox {
     width: 104%;
     display: flex;
     justify-content: space-between;
@@ -46,7 +52,7 @@ a {
     line-height: 132.03%;
     color: #FABB05;
 }
-
+ */
 nav {
     height: 65px;
     display: flex;
@@ -1257,7 +1263,7 @@ footer {
 @media only screen and (max-width: 1211px) {
 
 
-.ghostswitch-logobox {
+/* .ghostswitch-logobox {
     width: 105px;
     display: flex;
     justify-content: space-between;
@@ -1269,7 +1275,18 @@ footer {
     font-size: 12px;
     line-height: 132.03%;
     color: #BD000D;
+} */
+
+
+#main-icon {
+    display: flex;
+    align-items: center;
 }
+
+#ghostss-icon {
+    font-family: 18px;
+}
+
 
 
 #main-landing-icon {
@@ -1384,8 +1401,10 @@ footer {
 
 
     #main-icon {
-        width: 33%;
+        width: 95px;
         height: auto;
+        padding-top: 6px;
+        font-size: 12px;
     }
  
     nav {
