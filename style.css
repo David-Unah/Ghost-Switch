@@ -2405,7 +2405,7 @@ a#footmain {
 
 
 .ghostswitch-footer-logobox {
-    width: 154px;
+    width: fit-content;
     display: flex;
     justify-content: space-between;
     align-items: center;
