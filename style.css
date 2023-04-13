@@ -521,6 +521,7 @@ span {
     height: 701px;
     padding: 30px 90px;
     background-image: url(img/Mask\ group\ \(15\).png);
+    background-size: cover;
 }
 
 
@@ -2384,7 +2385,12 @@ footer {
     color: #FFFFFF;
 }
 
-.first-foot-box {
+/* .first-foot-box {
+    width: 85%;
+    margin: auto;
+} */
+
+a#footmain {
     width: 85%;
     margin: auto;
 }
