@@ -39,7 +39,7 @@ It is an online property management system, where hosts can edit their listing d
 Wiibi is passionate about sustainability, innovation and we are dedicated to solving major problems in Africa with the highest quality products and services. Wiibi dedicated to using technology to solve fundamental problems faced by people in Africa, with the aim of improving their lives. Our approach is rooted in the needs and challenges of our users, and we continually work to understand and address these challenges through innovative technological solutions.
  
  # Contributors
- David Unah
- Akinsoji OLuwadara
+ - David Unah
+ - Akinsoji OLuwadara
  
  
